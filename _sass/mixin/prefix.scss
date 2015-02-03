@@ -1,0 +1,5 @@
+@mixin border-radius-prefix($width) {
+	-webkit-border-radius: $width;
+	-moz-border-radius: $width;
+	border-radius: $width;
+}

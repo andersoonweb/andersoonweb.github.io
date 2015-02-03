@@ -1,0 +1,25 @@
+.about {
+	position: absolute;
+	right: 0;
+	top: 80px;
+	width: round(percentage(840 / 1060));
+
+	a {color: $color-logo - 100;}
+}
+.introduction {
+	width: round(percentage(1045 / 1350));
+	margin: 0 auto;
+	text-align: center;
+	h1 {
+		padding: 20px;
+		margin-bottom: 30px;
+		color: $color-link-menu-link;
+		font-size: 38px;
+	}
+
+	p {
+		font-size: 26px;
+		line-height: 50px;
+		text-align: justify;
+	}
+}

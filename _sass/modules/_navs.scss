@@ -1,0 +1,22 @@
+.main-nav {
+	width: round(percentage(240 / 300));
+	margin: 15px auto 0 auto;
+}
+.main-nav li{
+	margin-bottom: 10px;
+	background: $background-menu-home;
+	padding: 12px;
+	transform: skew(0deg, 3deg);
+	transition: all 400ms ease;
+
+	&:hover {
+		margin-left: 30px;
+	}
+}
+.main-nav a{
+	display: block;
+	color: $color-link-menu-link;
+	text-align: center;
+	font-style: italic;
+	font-size: 16px;
+}

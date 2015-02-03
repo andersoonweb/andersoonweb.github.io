@@ -1,0 +1,33 @@
+.header{
+	width: round(percentage(300 / 1350));
+	border-right: 5px solid $border-header;
+	position: fixed;
+	background: $header-color;
+	height: 100%;
+}
+.my-photo{
+	width: 200px;
+	height: 200px;
+	background: url('../../assets/imagem/my-photo.jpg');
+	display: block;
+	border: 5px solid #590E1C;
+	@include border-radius-prefix(50%);
+	margin: 20px auto;
+	background-size: 230px;
+	
+	&:hover{
+		border: 5px solid white;
+	}
+}
+.marca {
+	font-size: 30px;
+	text-align: center;
+	color: $color-logo;
+
+	i{
+		display: inline-block;
+		font-size: 20px;
+		padding-top: 5px;
+	}
+}
+
