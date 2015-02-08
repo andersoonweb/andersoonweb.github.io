@@ -1,4 +1,4 @@
-.about {
+.main {
 	position: absolute;
 	right: 0;
 	top: 80px;
@@ -21,5 +21,15 @@
 		font-size: 26px;
 		line-height: 50px;
 		text-align: justify;
+	}
+}
+.post-pages{
+	@extend .introduction;
+	width: 90%;
+	text-align: justify;
+
+	p {
+		font-size: 18px;
+		line-height: 30px;
 	}
 }

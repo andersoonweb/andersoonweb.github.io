@@ -28,3 +28,9 @@ $icons: facebook,googleplus,instagram,twitter,youtube;
 		}
 	}
 }
+
+.projects {
+	width: round(percentage(1000 / 1400));
+	margin: 0 auto;
+	border: 1px solid red;
+}
