@@ -1,8 +1,0 @@
----
-title:  " 2 Welcome to Jekyll!"
-date:   2015-02-08 14:42:27
-categories: jekyll
-description: Descrição do projeto
-img:
-   http://127.0.0.1:4000/assets/imagem/my-photo.jpg
----
