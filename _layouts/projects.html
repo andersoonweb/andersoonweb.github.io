@@ -3,12 +3,12 @@ layout: default
 ---
 <nav class="projects">
 	<ul>
-	{% for post in site.categories.jekyll %}
+	{% for post in site.categories.projetcs %}
 		<li>
-			<h3 class="title-box"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+			<h3 class="title-box">{{ post.title }}</h3>
 			<img src="{{ post.img }}" alt="case">
 			<p class="projects-description">{{ post.description }}</p>
-			<span class="more-projects"><a href="{{ post.url | prepend: site.baseurl }}">Mais informações</a></span>
+			<span class="more-projects"><a target="_blank" href="{{ post.link }}">link do projeto</a></span>
 		</li>
 		<p></p>
 	{% endfor %}
