@@ -1,0 +1,21 @@
+.more-projects {
+	font-size: 20px;
+	padding: 5px;
+	text-align: center;
+	background: $header-color;
+	width: 70%;
+	margin: 10px auto 0 auto;
+	display: block;
+	@include border-radius-prefix(3px);
+	transition: all 700ms ease;
+
+	&:hover {
+		background: $header-color - 100;
+	}
+
+	a {
+		color: $background-all;
+
+		&:hover {color: white;}
+	}
+}
