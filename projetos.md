@@ -1,4 +1,5 @@
 ---
-layout: default
+layout: projects
 permalink: /projetos/index.html
 ---
+

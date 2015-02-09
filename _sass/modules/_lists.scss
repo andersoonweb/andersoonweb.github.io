@@ -30,7 +30,26 @@ $icons: facebook,googleplus,instagram,twitter,youtube;
 }
 
 .projects {
-	width: round(percentage(1000 / 1400));
+	width: round(percentage(1350 / 1400));
 	margin: 0 auto;
-	border: 1px solid red;
+	float: right;
+
+	li {
+		width: 300px;
+		height: auto;
+		float: left;
+		margin: 50px 30px 0 0 ;
+	}
+
+	img {width: 300px; height:280px;}
+}
+.projects-description{
+	text-align: justify;
+	padding: 10px 0 ; 
+	margin-left: 5px;
+}
+.title-box {
+	margin: 10px 5px;
+
+	a{color: $header-color;}
 }

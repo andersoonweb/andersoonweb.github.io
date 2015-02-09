@@ -3,8 +3,6 @@
 	right: 0;
 	top: 80px;
 	width: round(percentage(840 / 1060));
-
-	a {color: $color-logo - 100;}
 }
 .introduction {
 	width: round(percentage(1045 / 1350));
@@ -22,6 +20,8 @@
 		line-height: 50px;
 		text-align: justify;
 	}
+
+	a { color: $color-logo - 100;}
 }
 .post-pages{
 	@extend .introduction;
