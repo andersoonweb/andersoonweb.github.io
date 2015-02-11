@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<section class="post-blog">
+	{% for post in site.categories.blog %}
+		<article class="article-post">
+			<header class="header-post">
+				<h1 class="title-post"><a href="">{{ post.title }}</a></h1>
+				<p>{{ post.description }}</p>
+				<a class="read-me" href="{{ post.url | prepend: site.baseurl }}">Continue lendo...</a>
+			</header>
+			<figure>
+				<img class="image-post" src="{{ post.img }}" alt="case">
+			</figure>
+		</article>
+	{% endfor %}
+</section>
