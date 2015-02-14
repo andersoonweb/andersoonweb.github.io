@@ -1,3 +1,8 @@
+/* 
+##########################################################################################
+								MAIN HOME PAGE 		
+##########################################################################################
+*/
 .main {
 	float: right;
 	width: round(percentage(820 / 1060));
@@ -7,7 +12,7 @@
 	margin: 50px auto 0 auto;
 	text-align: center;
 
-	h1,p,a{font-family: 'arial';}
+	h1,p,a{font-family: $font-secondary;}
 	
 	h1 {
 		padding: 20px;
@@ -24,16 +29,20 @@
 
 	a { color: $color-logo - 100;}
 }
-.post-pages{
-	@extend .introduction;
-	width: 90%;
-	text-align: justify;
+/* 
+##########################################################################################
+								MAIN BLOG POST EXTERNO 		
+##########################################################################################
+*/
+.post-blog-external{
+	@extend .post-blog;
 
-	p {
-		font-size: 18px;
+	p{
+		margin-top: 10px;
+		font-size: 20px;
 		line-height: 30px;
+		font-family: $font-primary;
 	}
-}
-.asd{
-	background: red;
+
+	a{color:$header-color; font-weight: bold;}
 }

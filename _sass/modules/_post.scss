@@ -1,3 +1,8 @@
+/* 
+##########################################################################################
+								HOME BLOG 		
+##########################################################################################
+*/
 .post-blog {
 	width: round(percentage(1300 / 1440));
 	margin: 0 auto;
@@ -15,54 +20,4 @@
 	max-width: round(percentage(1000 / 1000));
 	height: 200px;
 	float: right;
-}
-.header-post {
-	width: round(percentage(650 / 1000));
-	float: left;
-	p {
-		padding: 15px 3px;
-		line-height: 23px;
-		text-align: justify;
-	}
-}
-// Post external
-.post {
-	margin-top:20px;
-	p {
-		width: 90%;
-		margin: 0 auto;
-		text-align: justify;
-	}
-}
-
-.post-blog-external{
-	@extend .post-blog;
-
-	p{
-		margin-top: 10px;
-		font-size: 20px;
-		line-height: 30px;
-		font-family: sans-serif;
-	}
-
-	a{color:$header-color; font-weight: bold;}
-}
-.post-image-external {
-	max-width: 100%;
-	max-height: 300px;
-	margin: 0 auto;
-	display: block;
-	padding-bottom: 20px;
-}
-.title-post-external {
-	text-align: center;
-	padding: 20px 0;
-	color: $header-color;
-	font-style: italic;
-}
-.title-comments {
-	margin: 50px 0 20px 0 ;
-	padding-bottom: 10px;
-	border-bottom: 2px solid $background-all - 10;
-	color: $header-color;
 }

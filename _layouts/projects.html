@@ -6,10 +6,10 @@ title: Projeto
 	<ul>
 	{% for post in site.categories.projetcs %}
 		<li>
-			<h2 class="title-box">{{ post.title }}</h2>
+			<h2 class="projects-title">{{ post.title }}</h2>
 			<img src="{{ post.img }}" alt="case">
 			<p class="projects-description">{{ post.description }}</p>
-			<span class="more-projects"><a target="_blank" href="{{ post.link }}">link do projeto</a></span>
+			<span class="projects-more"><a target="_blank" href="{{ post.link }}">link do projeto</a></span>
 		</li>
 		<p></p>
 	{% endfor %}

@@ -1,0 +1,18 @@
+* {
+	margin:0;
+	padding:0;
+	font-family: $font-primary;
+}
+ul {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+body{
+	background: $background-all;
+}
+a{
+	text-decoration: none;
+
+	&:hover{text-decoration: underline;}
+}

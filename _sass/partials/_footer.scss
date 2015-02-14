@@ -1,0 +1,44 @@
+/* 
+##########################################################################################
+								FOOTER POST 		
+##########################################################################################
+*/
+.footer-post {
+	margin-top: 30px;
+}
+/* 
+##########################################################################################
+								COMENTÁRIOS 		
+##########################################################################################
+*/
+.title-comments {
+	margin: 50px 0 20px 0 ;
+	padding-bottom: 10px;
+	border-bottom: 2px solid $background-all - 10;
+	color: $header-color;
+}
+/*
+##########################################################################################
+								Icones partilhar		
+##########################################################################################
+*/
+.share-name{ 
+	float: left;
+	padding-right: 35px;
+	color: $background-all;
+	font-size: 24px;
+}
+.share-social {
+	background: $header-color;
+	border: 1px solid $header-color - 100;
+	height: 25px;
+	width: 700px;
+	margin: 20px auto 0 auto;
+	padding: 10px;
+	border-radius: 10px;
+
+	li {
+		float: left;
+		margin: 5px 30px 0 0;
+	}
+}

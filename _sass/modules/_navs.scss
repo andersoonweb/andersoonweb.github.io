@@ -1,3 +1,8 @@
+/* 
+##########################################################################################
+								NAV PRINCIPAL		
+##########################################################################################
+*/
 .main-nav {
 	width: round(percentage(240 / 300));
 	margin: 15px auto 0 auto;
@@ -19,5 +24,5 @@
 	text-align: center;
 	font-style: italic;
 	font-size: 16px;
-	font-family: 'arial';
+	font-family: $font-secondary;
 }
