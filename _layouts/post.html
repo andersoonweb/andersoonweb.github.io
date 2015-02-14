@@ -2,12 +2,16 @@
 layout: default	
 ---
 <section class="post-blog-external">
-	<h1 class="title-post-external">{{ page.title  }}</h1>
-	<figure>
-		<img class="post-image-external" src="{{ page.img }} " alt="">
-		<article class="post-content">{{ content }}</div>
-	</figure>
-	{% include share.html %}
-	<h2 class="title-comments">Deixe seu comentário</h2>
-	{% include comments.html %}
+	<header class="header-post-external">
+		<h1 class="title-post-external">{{ page.title  }}</h1>
+		<figure>
+			<img class="post-image-external" src="{{ page.img }} " alt="">
+		</figure>
+	</header>
+			<article class="post-content">{{ content }}</div>
+	<footer class="footer-post">
+		{% include share.html %}
+		<h2 class="title-comments">Deixe seu comentário</h2>
+		{% include comments.html %}
+	</footer>
 </section>
