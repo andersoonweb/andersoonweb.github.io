@@ -14,7 +14,7 @@
 .title-comments {
 	margin: 50px 0 20px 0 ;
 	padding-bottom: 10px;
-	border-bottom: 2px solid $background-all - 10;
+	border-bottom: 2px solid $color-base - 10;
 	color: $header-color;
 }
 /*
@@ -25,7 +25,7 @@
 .share-name{ 
 	float: left;
 	padding-right: 35px;
-	color: $background-all;
+	color: $color-base;
 	font-size: 24px;
 }
 .share-social {
