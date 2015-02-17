@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Um novo caminho,linux, mudando minha vida aos poucos. Parte 1."
-date:   2015-02-10 13:00:00
+published:   13-02-2015
 categories: blog
 description: Comecei a estudar e a explorar aos poucos o ambiente. Como sempre fui um pouco acomodado preferir ver séries de aulas sobre o mesmo...
 comments: true
