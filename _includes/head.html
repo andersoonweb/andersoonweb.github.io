@@ -11,18 +11,17 @@
 	<!-- META TAGS FACEBOOK -->
 	<meta property="fb:admins" content="100002098715433" />
 	<meta property="og:url" content="{{ page.url }}">
-	<meta property="og:type" content="{% if page.layout == 'post' %}Artigo{% else%} Blog {% endif %}">
-	<meta property="og:title" content="{{ page.title }}">
+	<meta property="og:type" content="{% if page.layout == 'post' %}Artigo{% else%} Blog {% endif %}" />
+	<meta property="og:title" content="{{ page.title }}" />
 	 {% if page.image %}
-    <meta property="og:image" content="{{ site.url }}{{page.image }}">
+    <meta property="og:image" content="{{ site.url }}{{page.image }}" />
     {% else %}
-    <meta property="og:image" content="{{ "/assets/imagem/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:image" content="{{ "/assets/imagem/blog-image.png" | prepend: site.baseurl | prepend: site.url }}" />
     {% endif %}
-	<meta property="og:description" content="{{ page.description }}">
-	<meta property="og:site_name" content="{{ site.title }}">
-	<meta property="article:author" content="https://www.facebook.com/AndersonMenezesw">
-	<meta property="article:publisher" content="https://www.facebook.com/AndersonMenezesw">
-	<meta property="article:published_time" content="{{ page.data }}">
+	<meta property="og:description" content="{{ page.description }}" />
+	<meta property="og:site_name" content="{{ site.title }}" />
+	<meta property="article:author" content="Anderson Menezes" />
+	<meta property="article:published_time" content="{{ page.data }}" />
 
 	<!-- META TAGS TWITTER -->
 	<meta name="twitter:card" content="summary_large_image">
