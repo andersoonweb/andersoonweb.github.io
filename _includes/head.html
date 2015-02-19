@@ -11,9 +11,13 @@
 	<!-- META TAGS FACEBOOK -->
 	<meta property="fb:admins" content="100002098715433" />
 	<meta property="og:url" content="{{ page.url }}">
-	<meta property="og:type" content="blog">
+	<meta property="og:type" content="{% if page.layout == 'post' %}Artigo{% else%} Blog {% endif %}">
 	<meta property="og:title" content="{{ page.title }}">
-	<meta property="og:image" content="{{ page.img }}">
+	 {% if page.image %}
+    <meta property="og:image" content="{{ site.url }}{{page.image }}">
+    {% else %}
+    <meta property="og:image" content="{{ "/assets/imagem/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
+    {% endif %}
 	<meta property="og:description" content="{{ page.description }}">
 	<meta property="og:site_name" content="{{ site.title }}">
 	<meta property="article:author" content="https://www.facebook.com/AndersonMenezesw">
@@ -25,13 +29,17 @@
 	<meta name="twitter:site" content="@amenezesw"> 
 	<meta name="twitter:title" content="{{ page.title }}">
 	<meta name="twitter:description" content="{{ page.description }}">
-	<meta property="twitter:image:src" content="{{ page.img }}">
+	{% if page.image %}
+    <meta property="twitter:image:src" content="{{ site.url }}{{page.image }}">
+    {% else %}
+    <meta property="twitter:image:src" content="{{ "/assets/imagem/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
+    {% endif %}
 
 	<!-- META TAGS GOOGLE PLUS -->
 	<link rel="author" href="https://plus.google.com/+AndersonMenezes/posts">
 	<meta itemprop="name" content="{{ page.title}}">
 	<meta itemprop="description" content="{{ page.description }}">
-	<meta itemprop="image" content="{{ page.img }}">
+	<meta itemprop="image" content="{{ "/assets/imagem/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
 	<!-- STYLESHEET -->
 	<link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
