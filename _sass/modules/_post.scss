@@ -96,6 +96,18 @@
 	font-family: 'Open Sans', sans-serif;
 }
 .share{
-	width: 380px;
+	width: 400px;
 	margin: 0 auto;
+	display: table;
+	i{
+		display: table-cell;
+		vertical-align: middle;
+	}
+	li{
+		margin: 20px;
+		float: left;
+	}
+	.facebook{background:#425F9C}
+	.twitter{background:#0084B4}
+	.google-plus{background:#CF4332}
 }
