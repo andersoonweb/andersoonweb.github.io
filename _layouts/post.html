@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <header class="header-post-external">
+    	<div class="align-po-ex">
+    		<h1 class="title-po-ex">{{ page.title }}</h1>
+    	</div>
+    	<div style="background-image: url('{{ page.img }}');" class="post-po-ex"></div>
+    </header>
+
+    <article class="content-po-ex">
+    	{{ content }}
+    </article>
+
+    <section class="share">
+    	<h2 class="title-features">Compartilhe</h2>
+    	<ul>
+    		<li><a href="#">Facebook</a></li>
+    		<li><a href="#">Twitter</a></li>
+    		<li><a href="#">Google +</a></li>
+    	</ul>
+    </section>
+
+    <section class="align-po-ex comments">
+    	<h2 class="title-features">Deixe seu comentário</h2>
+    </section>
+   </body>
+</html>

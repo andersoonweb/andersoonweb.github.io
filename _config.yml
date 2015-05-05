@@ -1,0 +1,16 @@
+# Site settings
+title: Anderson Menezes desenvolvedor front-end.
+email: andersomxp@gmail.com
+description: Sou desenvolvedor front-end Freelance	
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://andersonweb.github.io" # the base hostname & protocol for your site
+
+# Build settings
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+layouts:     ./_layouts
+data_source: ./_data
+collections: null
+sass:
+  style: compressed

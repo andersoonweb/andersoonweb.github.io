@@ -1,0 +1,35 @@
+.header{
+	width: 23%;
+	min-height: 100%;
+	position: fixed;
+	background: $color-background-header;
+	float: right;
+}
+.my-photo{
+	width: 215px;
+	height: 215px;
+	border-radius: 50%;
+	background: url(https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/1476599_555781971168422_636263987_n.jpg?oh=ddcec8b82dc4f64acfcd29f4e68a9465&oe=55D26535&__gda__=1441042644_927cf58be5c3a6af792909734e2bae73)no-repeat;
+	background-size: cover;
+	margin: 50px 40px;
+	position: relative;
+}
+.align-header{
+	margin: 0 15px;
+}
+.about{
+	border-top: 1px solid $color-background-header + 20;
+	border-bottom: 1px solid $color-background-header + 20;
+	margin-top: 75px;
+	color: $color-text-header;
+	font-family: 'Open Sans', sans-serif;
+	p{
+		margin: 8px 6px;
+	}
+}
+.header-post-external{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	font-family: 'Open Sans', sans-serif;
+}
