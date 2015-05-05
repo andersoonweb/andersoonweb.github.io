@@ -20,7 +20,7 @@
 .about{
 	border-top: 1px solid $color-background-header + 20;
 	border-bottom: 1px solid $color-background-header + 20;
-	margin-top: 75px;
+	margin-top: 30px;
 	color: $color-text-header;
 	font-family: 'Open Sans', sans-serif;
 	p{
@@ -32,4 +32,47 @@
 	height: 500px;
 	overflow: hidden;
 	font-family: 'Open Sans', sans-serif;
+}
+.social{
+	margin-top: 25px;
+
+	li{
+		list-style: none;
+		margin-left: 4px;
+		float: left;
+		display: table;
+	}
+	i{
+		display: table-cell;
+	    vertical-align: middle
+	}
+}
+%default-social{
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	color: #D6D6D6;
+	vertical-align: middle;
+	background: #111111;
+}
+.facebook{
+	@extend %default-social;
+	&:hover{background: #425F9C;}
+}
+.twitter{
+	@extend %default-social;
+	&:hover{background: #0084B4;}
+}
+.google-plus{
+	@extend %default-social;
+	&:hover{background: #CF4332;}
+}
+.linkedin{
+	@extend %default-social;
+	&:hover{background: #0097BD;}
+}
+.github{
+	@extend %default-social;
+	&:hover{background: #181818 - 20;}
 }
