@@ -3,28 +3,52 @@ layout: post
 title:  "Git pra desenvolvedores"
 published:   19-02-2015
 categories: blog
-description: Eu sempre fui um cara que dou muita importância para a beleza daquilo que estou usando. Cerca de dois anos atrás eu chegava do colégio por volta do meio dia e assistia a uma aula no canal da Study Class, sobre Introdução ao CSS dinamico com less CSS. Ele usava um sistema que não sabia o qual era, mas achava bem bonito...
+description: Queria passar um pouco dos comandos que aprendi e agora utilizo no dia a dia e expor minha interpretação deles pra vocês. Ele foi desenvolvido por Linus, o criador do Linux...
 comments: true
 img:
    http://wallpaperwonder.com/wp-content/uploads/2014/03/logo-Ubuntu-Code-Wallpaper.jpg
 ---
-<h2 class="topics">Descobrindo o Linux</h2>
-Eu sempre fui um cara que dou muita importância para a beleza daquilo que estou usando. Cerca de dois anos atrás eu chegava do colégio por volta do meio dia e assistia a uma aula no canal da <a class="link-po-ex" target="_blank" href="https://www.youtube.com/user/StudyClassOficial">Study Class</a>, sobre <a target="_blank" class="link-po-ex" href="https://www.youtube.com/watch?v=pzC3zThxC_s">Introdução ao CSS dinamico com less CSS</a>. Ele usava um sistema que não sabia o qual era, mas achava bem bonito.
+<h2 class="topics">Meus primeiros passos...</h2>
+Recentemente resolvi me aprofundar no Git, um sistema de controle de versão bem comum entre desenvolvedores. Queria conhecer  pouco mais dos comandos básicos (git add , git commit -m e git push). Queria ver as mágicas que ele faz.  
 
-<h2 class="topics">Sempre correndo atrás</h2>
-O tempo foi se passando e eu descobri que sistema era aquele, era o Linux <a class="link-po-ex" target="_blank" href="http://www.ubuntu.com/">Ubuntu</a>, logo fui procurar saber sobre, e havia muita gente falando que era muito bom, que era open source e, que Linux é vida. Não tinha muita noção das coisas, não sabia que ele tinha limitações, por exemplo, não podemos usar programas do adobe lá, sem emular. E isso pode trazer problemas pra usuários que em do Windows.
+Queria passar um pouco dos comandos que aprendi e agora utilizo no dia a dia e expor minha interpretação deles pra vocês. 
 
-<h2 class="topics">Passando um tempo</h2>
-Fui até um técnico da minha cidade com meu computador que não era muito legal, acho que era core dois duos com um HD de 200, eu acho, mas que me serviu muito. Pedi que fizesse a integração dos dois sistemas operacionais no meu computador que é chamado de dual boot. O jovem me entregou o computador, e no mesmo dia inventei que o PC estava travando que ele não sabia instalar, blá,blá blá… Isso tudo porque achei o sistema muito diferente. Ele formatou e colocou o Windows novamente.
+<h2 class="topics">O Git</h2>
+Ele foi desenvolvido por Linus, o criador do Linux para o desenvolvimento do kernel,mas foi adotado por outros projetos. 
 
-Com o passar do tempo lá vou eu acompanhando a comunidade e vendo muitas pessoas falando bem do Linux e eu pensando: “Tenho que se bom também, tenho que usar Linux!”. Firmei na minha cabeça isso ai. Adquirindo um novo computador pensei, agora sim posso colocar dois sistemas aqui sem travar, e lá vamos nós pra mais uma luta.
+<h2 class="topics">Git no dia a dia</h2>
+O git é mais voltado pra grande e médias equipes, mas isso não lhe impede de trabalhar sozinho, é questão de organização; e ter um histórico de todo seu trabalho será legal. 
 
-Coloquei o Linux Ubuntu no meu computador e vamos lá usa-ló. Você sofre um grande impacto, pois não é nada igual o seu antigo sistema operacional, principalmente pra quem vem do Windows. Como sou muito chato comecei a notar as fontes do Linux que é bem diferente do Windows, e ficava colocando muitos defeitos, mas não olhava para o interior daquele sistema e do que ele tinha a me oferecer. E fui indo e cansei, e pensei:  “Ah, vou desinstalar essa porra, o Windows é bom, dá pra desenvolver o ruim é apenas o terminal” .Desinstalei e voltei para o Windows.
+<h2 class="topics">Instalação e iniciando o git</h2>
+A instalação do Git é bem simples, ele funciona tanto no Windows,Linux e Mac. Veja aqui como instalar. 
+Apos a instalação do git rode o comando git init na pasta que deseja trabalhar com ele. Isso criará um repositório .git, uma pasta oculta onde ficarão armazenadas todas as informações do seu projeto. Para visualizar a pasta rode o comando ls -la. 
 
-Fiquei por volta de 20 dias no Windows e comecei e querer usar o Linux novamente, então pensei… Agora vou instalar no notebook, lá vai ser melhor. Ubuntu instalado no notebook e eu tendo séries de problemas chegando a conclusão que, no ambiente Linux você gasta mais tempo procurando como solucionar os problemas do que usando ele, mas como não gastar tempo pesquisando, se você não sabe de nada, praticamente é tudo diferente. Foi quando o ícone de sinal do Wifi não aparecia, sumiu do nada, voltei e instalei o Windows novamente.
+<h2 class="topics">Comandos básicos</h2>
+Para uma compreensão rápida desse tópico, vou dar um pequeno exemplo: Você vai até na padaria comprar pão. Chegando lá,olha todos os pães,pega o pão que deseja, coloca dentro de um saco, paga e leva. Aquele pão, se você não o quiser mais, tire-o da sacola. 
+Com o Git não é diferente. Apos rodar o comando git init,rode o comando git status, vai presenciar todos arquivos / pasta que estiver dentro daquela pasta do seu projeto. Se não tiver nenhum ainda, crie um e rode o comando git status novamente. Segue a imagem. 
+Esses arquivos podemos assimilar com os paẽs a serem escolhidos. Podemos pegar cada um deles com o comando git add. Esse comando permite que você adicione os arquivos que desejar colocar pra entrar em um pacote / saco.Esse pacote é chamado de commit no git. 
 
-<h2 class="topics">Linux é vida!</h2>
-Passando um tempo, pensei… Vou fazer um dual boot no meu computador, e vou usar o Linux. Toda hora via alguém falando bem do ambiente, principalmente falando muito bem do <a class="link-po-ex" target="_blank" href="http://pt.wikipedia.org/wiki/Shell_script">Shell script</a> e de ambiente Unix. Desta vez tive mais paciência e as coisas foram fluindo melhor, mas sempre enchia o saco de <a target="_blank" class="link-po-ex" href="https://github.com/fdaciuk">Fernando Daciuk</a> e às vezes do <a class="link-po-ex" target="_blank" href="https://github.com/rafaelstz">Rafael Corrêa</a>, perguntando muitas coisas (até hoje fico enchendo, mas não é com tanta frequência xD).
-Comecei a estudar e a explorar aos poucos o ambiente. Como sempre fui um pouco acomodado preferir ver séries de aulas sobre o mesmo, foi aonde encontrei as aulas da <a target="_blank" class="link-po-ex" href="https://www.youtube.com/user/bosontreinamentos">Bóson treinamentos</a>, canal do professor Fábio dos Reis, um excelente professor e com uma didática surpreendente, fui acompanhando o canal do <a target="_blank" class="link-po-ex" href="https://www.youtube.com/user/Diolinux/videos">DioLinux</a> que manja pra caralho e passa umas dicas muito legais sobre Linux em geral. Assim comecei a dar meus primeiros passos no sistema dos hackers, como dizem.
+<h2 class="topics">Sintaxe do comando git add: </h2>
 
-E essa foi minha história até agora com o Linux. No próximo artigo vou mostrar o que uso no Linux, programas, scripts, e tudo mais, até lá ! :P
+git add --all ## Inclue tudo que estiver 
+
+git add nome-do-arquivo ## Inclue apenas o arquivo desejado 
+
+git add *.extensão ## Inclue apenas os arquivos que tiver a extensão que passar, exemplo: git add *.scss, irá incluir todos os arquivos que terminam com .scss.
+
+Perceba que, quando eles não foram adicionados,serão mostrador em  "Untracked files".Quando eles são adicionados, eles passam a "Changes to be committed". Convertendo pra a linguagem do Git,Untracked Files eles estão fora da árvore, Changes to be committed estão dentro da árvore pronto, pra ser empacotado ou melhor commitado.
+
+<h2 class="topics">Adicionando dentro do commit / pacote </h2>
+Para transformar seu arquivos listado em um commit basta rodar o comando git commit -m "sua mensagem" . A propriedade -m atribui uma mensagem ao seu commit, assim você terá um histórico e saberá o que cada um fez. Por exemplo: git commit -m "Corrigindo bug do IE 8". Esse commit corrigiu o bug do navegador Internet explore. 
+
+Existe um atribuição -a, ela consiste em adicoinar um arquivo automaticamente. Ahn, mas como assim? Calma jovem, já explico. No seu dia a dia você com certeza irá modificar vários arquivos, e irá commitar. Bom, a atribuição -a só funciona em arquivos "On branch master", ou seja, que já foi commitado, que já foi adicionado alguma vez. Para saber como identificar esse aquivos é bem simples, antes do nome ele vem mostrando que foi modificado. Ele fica assim: modified : nome-do-arquivo . A sintaxe do comando é a seguinte: git commit -a -m "mensagem do commit" ou git commit -am "Mensagem do commit" que ele empacota diretamente, sem precisar rodar o comando git add pra adicionar. Vale lembrar que ele pega todos os arquivos modificados e só arquivos, On branch master, ou seja, arquivos modificados.
+
+Ah Anderson, eu fiz o commit e ficou faltando um arquivo, o que eu faço ? Para tal existe um atribuição chamada --amend que irá juntar os/o arquivo que você adicionou.  O comando ficaria assim: git commit -m "Corrigindo bug do IE 8" --amend.
+
+"Nota" Vale lembrar que o arquivo deve estar dentro da árvore (Changes to be committed).
+
+Para verificar todos os commit basta rodar o comando git log, vamos falar mais sobre ele num próximo artigo. 
+
+
+<h2 class="topics">Continua...</h2>
+
