@@ -27,4 +27,5 @@ Passando um tempo, pensei… Vou fazer um dual boot no meu computador, e vou usa
 Comecei a estudar e a explorar aos poucos o ambiente. Como sempre fui um pouco acomodado preferir ver séries de aulas sobre o mesmo, foi aonde encontrei as aulas da <a target="_blank" class="link-po-ex" href="https://www.youtube.com/user/bosontreinamentos">Bóson treinamentos</a>, canal do professor Fábio dos Reis, um excelente professor e com uma didática surpreendente, fui acompanhando o canal do <a target="_blank" class="link-po-ex" href="https://www.youtube.com/user/Diolinux/videos">DioLinux</a> que manja pra caralho e passa umas dicas muito legais sobre Linux em geral. Assim comecei a dar meus primeiros passos no sistema dos hackers, como dizem.
 
 E essa foi minha história até agora com o Linux. No próximo artigo vou mostrar o que uso no Linux, programas, scripts, e tudo mais, até lá ! :P
+
 <h2 class="topics">Continua...</h2>
