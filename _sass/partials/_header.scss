@@ -32,6 +32,15 @@
 	height: 500px;
 	overflow: hidden;
 	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	display: table;
+
+	&:hover{
+		content: '';
+		display: inline-block;
+		height: 500px;
+		vertical-align: middle;
+	}
 }
 .social{
 	margin-top: 25px;

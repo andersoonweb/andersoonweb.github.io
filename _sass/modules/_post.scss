@@ -8,7 +8,7 @@
 
 .post-title{
 	color: $color-logo;
-		font-size: 28px;
+	font-size: 28px;
 	a{
 		color: $color-logo;
 		font-size: 28px;
@@ -54,6 +54,11 @@
 .align-po-ex{
 	width: 960px;
 	margin: 0 auto;
+	position: absolute;
+	left: 50%;
+	margin-left: -480px;
+	height: 100%;
+	display: table;
 }
 .post-po-ex{
 	width: 100%;
@@ -64,11 +69,14 @@
 	z-index: -1;
 }
 .title-po-ex{
-	position: absolute;
+	position: relative;
 	color: #fff;
 	font-weight: 700;
 	font-size: 70px;
 	text-shadow: 3px 3px 2px #191919;
+	text-align: left;
+	vertical-align: middle;
+	display: table-cell;
 }
 .content-po-ex{
 	width: 990px;
@@ -92,7 +100,7 @@
 	text-align: center;
 	font-size: 60px;
 	color:$color-logo;
-	margin-top: 65px;
+	margin: 65px 0 20px 0;
 	font-family: 'Open Sans', sans-serif;
 }
 .share{

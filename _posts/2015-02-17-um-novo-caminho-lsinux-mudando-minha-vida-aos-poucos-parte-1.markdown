@@ -6,8 +6,9 @@ categories: blog
 description: Queria passar um pouco dos comandos que aprendi e agora utilizo no dia a dia e expor minha interpretação deles pra vocês. Ele foi desenvolvido por Linus, o criador do Linux...
 comments: true
 img:
-   http://wallpaperwonder.com/wp-content/uploads/2014/03/logo-Ubuntu-Code-Wallpaper.jpg
+    /assets/imagem/git-par1.jpg
 ---
+
 <h2 class="topics">Meus primeiros passos...</h2>
 Recentemente resolvi me aprofundar no Git, um sistema de controle de versão bem comum entre desenvolvedores. Queria conhecer  pouco mais dos comandos básicos (git add , git commit -m e git push). Queria ver as mágicas que ele faz.  
 
@@ -30,7 +31,7 @@ Esses arquivos podemos assimilar com os paẽs a serem escolhidos. Podemos pegar
 
 <h2 class="topics">Sintaxe do comando git add: </h2>
 
-git add --all ## Inclue tudo que estiver 
+git add --all ## Inclue tudo que estiver
 
 git add nome-do-arquivo ## Inclue apenas o arquivo desejado 
 
