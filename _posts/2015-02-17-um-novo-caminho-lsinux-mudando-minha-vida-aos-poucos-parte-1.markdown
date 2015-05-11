@@ -46,7 +46,7 @@ Existe um atribuição -a, ela consiste em adicoinar um arquivo automaticamente.
 
 Ah Anderson, eu fiz o commit e ficou faltando um arquivo, o que eu faço ? Para tal existe um atribuição chamada --amend que irá juntar os/o arquivo que você adicionou.  O comando ficaria assim: git commit -m "Corrigindo bug do IE 8" --amend.
 
-"Nota" Vale lembrar que o arquivo deve estar dentro da árvore (Changes to be committed).
+<span class="notes">Vale lembrar que o arquivo deve estar dentro da árvore (Changes to be committed).</span>
 
 Para verificar todos os commit basta rodar o comando git log, vamos falar mais sobre ele num próximo artigo. 
 
