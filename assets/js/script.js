@@ -21,3 +21,14 @@ window.___gcfg = {lang: 'pt-BR'};
     po.src = 'https://apis.google.com/js/platform.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
+
+// Social Share
+$('.element').socialShare({
+  url:'andersonweb.github.io',
+  image:'http://andersonweb.github.io/assets/imagem/blog-image.png',
+  twitterVia:'amenezesw',
+  twitterHashTags:'javascript,jquery'
+});
+
+
+
