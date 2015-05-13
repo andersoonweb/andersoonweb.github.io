@@ -5,8 +5,6 @@
         <li class="group facebook-share">
             <a aria-label="Compartilhe no Facebook"href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
             onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Compartilhe no Facebook">
-                <div class="count facebook-count"></div>
-                <i class="fa fa-caret-down"></i>
                 <button class="fb"><i class="fa fa-facebook"></i> facebook</button>
             </a>
         </li>
@@ -14,23 +12,17 @@
         <li class="group gplus-share">
             <a aria-label="Compartilhe no Google Plus" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}"
             onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Compartilhe no Google+">
-                <div class="count gplus-count"></div>
-                <i class="fa fa-caret-down"></i>
                 <button class="gp"><i class="fa fa-google-plus"></i> google plus</button>
             </a>
         </li>
 
         <li class="group linkedin-share">
-          <div class="count linkedin-count"></div>
-          <i class="fa fa-caret-down"></i>
           <button class="linkedin"><i class="fa fa-linkedin"></i> linkedin</button>
         </li>
 
         <li class="group twitter-share">
             <a aria-label="Compartilhe no Twitter" href="https://twitter.com/intent/tweet?text=&quot;{{ page.twitter_text }}&quot;%20{{ site.url }}{{ page.url }}%20via%20&#64;{{ site.twitter_username }}&hashtags={% for tag in page.tags %}{{tag}},{% endfor %}"
             onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Compartilhe no Twitter">
-                <div class="count twitter-count"></div>
-                <i class="fa fa-caret-down"></i>
                 <button class="twitter"><i class="fa fa-twitter"></i> twitter</button>
             </a>
         </li>

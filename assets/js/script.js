@@ -1,3 +1,4 @@
+
 // Script Wow
 	new WOW().init();
 // Function facebook share
@@ -22,13 +23,7 @@ window.___gcfg = {lang: 'pt-BR'};
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
 
-// Social Share
-$('.element').socialShare({
-  url:'andersonweb.github.io',
-  image:'http://andersonweb.github.io/assets/imagem/blog-image.png',
-  twitterVia:'amenezesw',
-  twitterHashTags:'javascript,jquery'
-});
+
 
 
 

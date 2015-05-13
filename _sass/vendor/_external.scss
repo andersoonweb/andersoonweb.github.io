@@ -2,8 +2,8 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100);
 .element{
   color: #fff;
-   display: table; 
-   margin: 100px auto;
+  display: table; 
+  margin: 100px auto;
   position: absolute;
   left: 50%;
   margin-left: -400px;
@@ -34,57 +34,14 @@
   -o-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
 }
-
-.fb{
-  background-color: #306199;
-}
-
-.fb:hover{
-  background-color: #244872;
-}
-
-.count{
-  background-color: $color-background-header;
-  color: white;
-  border-radius: 2px;
-  margin-bottom: 10px;
-  text-align: center;
-  padding: 10px;
-  height: 40px;
-  box-sizing:border-box;
-}
-
-.fa-caret-down{
-  position: absolute;
-  margin-top: -22px;
-  text-align: center;
-  right: 10px;
-  color: $color-background-header;
-  &:active{color:none;}
-}
-
-.gp{
-  background-color: #e93f2e;
-}
-
-.gp:hover{
-  background-color: #ce2616;
-}
-
-.linkedin{
-  background-color: #007bb6;
-}
-
-.linkedin:hover{
-  background-color: #005983;
-}
-
-.twitter{
-  background-color: #26c4f1;
-}
-
-.twitter:hover{
-  background-color: #0eaad6;
-}
+// Style button share
+.fb{background-color: #306199;}
+.fb:hover{background-color: #244872;}
+.gp{background-color: #e93f2e;}
+.gp:hover{background-color: #ce2616;}
+.linkedin{background-color: #007bb6;}
+.linkedin:hover{background-color: #005983;}
+.twitter{background-color: #26c4f1;}
+.twitter:hover{background-color: #0eaad6;}
 
 
