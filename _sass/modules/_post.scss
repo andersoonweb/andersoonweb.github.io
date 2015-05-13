@@ -93,6 +93,7 @@
 	p{
 		font-size: 20px;
 		margin-top: 15px;
+		text-align: justify;
 	}
 }
 .topics{
@@ -140,4 +141,14 @@
 	margin: 10px 20px;
 	display: block;
 	color: #7B7878;
+}
+code{
+	color: $color-logo;
+}
+.notes-code{
+	margin: 10px 20px;
+	list-style-type: disc;
+	font-style: italic;
+	font-size: 18px;
+	color: #828282;
 }
