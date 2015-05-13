@@ -64,23 +64,23 @@
 	vertical-align: middle;
 	background: #111111;
 }
-.facebook{
+.facebook-icon{
 	@extend %default-social;
 	&:hover{background: #425F9C;}
 }
-.twitter{
+.twitter-icon{
 	@extend %default-social;
 	&:hover{background: #0084B4;}
 }
-.google-plus{
+.google-plus-icon{
 	@extend %default-social;
 	&:hover{background: #CF4332;}
 }
-.linkedin{
+.linkedin-icon{
 	@extend %default-social;
 	&:hover{background: #0097BD;}
 }
-.github{
+.github-icon{
 	@extend %default-social;
 	&:hover{background: #181818 - 20;}
 }

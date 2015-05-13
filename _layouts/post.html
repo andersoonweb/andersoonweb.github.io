@@ -13,22 +13,14 @@
     	{{ content }}
     </article>
 
-    <section class="share">
-    	<h2 class="title-features">Compartilhe</h2>
-            <li>
-                <a href="#"><i class="twitter fa fa-twitter fa-2x"></i></a>
-            </li>
-            <li>
-                <a href="#"><i class="facebook fa fa-facebook fa-2x"></i></a>
-            </li>
-            <li>
-                <a href="#"><i class="google-plus fa fa-google-plus fa-2x"></i></a>
-            </li>
-    </section>
-
-    <section class="align-po-ex comments">
-    	<h2 class="title-features">Deixe seu comentário</h2>
-        {% include comments.html %}
-    </section>
+    {% include share.html %}
+   
+    <div class="center">
+        <section class="comments">
+            <h2 class="title-features">Deixe seu comentário</h2>
+            {% include comments.html %}
+        </section>
+    </div>
    </body>
 </html>
+
