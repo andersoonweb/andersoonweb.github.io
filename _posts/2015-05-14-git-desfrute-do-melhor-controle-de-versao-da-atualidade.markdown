@@ -42,15 +42,15 @@ Esses arquivos podemos assimilar com os paẽs a serem escolhidos. Podemos pegar
 
 <code>git add .</code>
 
-<li class="notes-code">Inclue tudo que estiver.</li>
+<li class="notes-code">Inclui tudo que estiver.</li>
 
 <code>git add nome-do-arquivo</code>
 
-<li class="notes-code">Inclue apenas o arquivo desejado.</li>
+<li class="notes-code">Inclui apenas o arquivo desejado.</li>
 
 <code>git add *.extensão</code>
 
-<li class="notes-code">Inclue apenas os arquivos que tiver a extensão que passar. Exemplo: git add *.scss, irá incluir todos os arquivos que terminam com .scss.</li>
+<li class="notes-code">Inclui apenas os arquivos que tiver a extensão que passar. Exemplo: git add *.scss, irá incluir todos os arquivos que terminam com .scss.</li>
 
 Perceba que, quando eles não foram adicionados, serão mostrador em  <code>Untracked files</code>. Quando eles são adicionados, eles passam a <code>Changes to be committed</code>. Convertendo pra a linguagem do Git,<code> Untracked Files</code> eles estão fora da árvore, <code>Changes to be committed</code> estão dentro da árvore, pronto pra ser empacotado ou melhor commitado.
 
