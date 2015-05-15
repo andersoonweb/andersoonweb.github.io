@@ -1,18 +1,6 @@
 // Share
-.element{
-  color: #fff;
-  display: table; 
-  margin: 100px auto;
-  position: absolute;
-  left: 50%;
-  margin-left: -400px;
-  top: 50%;
-  margin-top: 0;
-}
-
 .element .group{
-  display: inline-block;
-  position: relative;
+  float: left;
   cursor:pointer;
   margin: 0 25px;
   font-size: 28px;
