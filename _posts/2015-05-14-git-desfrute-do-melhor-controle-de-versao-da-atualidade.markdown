@@ -42,7 +42,7 @@ Esses arquivos podemos assimilar com os paẽs a serem escolhidos. Podemos pegar
 
 <code>git add .</code>
 
-<li class="notes-code">Inclui tudo que estiver.</li>
+<li class="notes-code">Inclui					 tudo que estiver.</li>
 
 <code>git add nome-do-arquivo</code>
 

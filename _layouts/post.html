@@ -3,10 +3,13 @@
   {% include head.html %}
   <body>
     <header class="header-post-external">
-    	<div class="align-po-ex">
-    		<h1 class="title-po-ex">{{ page.title }}</h1>
-    	</div>
-    	<div style="background-image: url('{{ page.img }}');" class="image-po-ex"></div>
+      <div class="bar">
+        <a href="/"><i class="fa fa-arrow-circle-left fa-4x"></i></a>
+      </div>
+        <div class="align-po-ex">
+    		  <h1 class="title-po-ex">{{ page.title }}</h1>
+    	  </div>
+    	  <div style="background-image: url('{{ page.img }}');" class="image-po-ex"></div>
     </header>
 
     <article class="content-po-ex">
