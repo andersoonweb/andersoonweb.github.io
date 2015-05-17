@@ -5,8 +5,7 @@ published:   17-05-2015
 categories: blog
 description: Queria passar um pouco dos comandos que aprendi e agora utilizo no dia a dia e expor minha interpretação deles pra vocês. Ele foi desenvolvido por Linus, o criador doLinux...
 comments: true
-img:
-    /assets/imagem/git-par1.jpg
+img:   "/assets/imagem/git-par1.jpg"
 ---
 
 <h2 class="topics">Meus primeiros passos...</h2>
