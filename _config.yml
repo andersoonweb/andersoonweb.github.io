@@ -4,7 +4,7 @@ email: andersomxp@gmail.com
 description: Sou desenvolvedor front-end Freelance	
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://andersonweb.github.io" # the base hostname & protocol for your site
-
+twitter_username: amenezesw
 # Build settings
 source:      .
 destination: ./_site
