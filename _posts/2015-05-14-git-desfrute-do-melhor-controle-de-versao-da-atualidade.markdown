@@ -32,7 +32,7 @@ Após a instalação do git rode o comando <code>git init</code> na pasta que de
 
 <h2 class="topics">Comandos básicos</h2>
 Para uma compreensão rápida desse tópico, vou dar um pequeno exemplo: Você vai até na padaria comprar pão. Chegando lá, olha todos os pães, pega o pão que deseja, coloca dentro de um saco, paga e leva. Aquele pão, se você não o quiser mais, tire-o da sacola. 
-Com o Git não é diferente. Após rodar o comando <code>git init</code>,rode o comando <code>git status</code>. O git vai listar  todos arquivos / pasta que estiver dentro daquela pasta do seu projeto. Se não tiver nenhum ainda, crie um e rode o comando <code>git status</code> novamente. 
+Com o Git não é diferente. Após rodar o comando <code>git init</code>, rode o comando <code>git status</code>. O git vai listar  todos arquivos / pasta que estiver dentro daquela pasta do seu projeto. Se não tiver nenhum ainda, crie um e rode o comando <code>git status</code> novamente. 
 
 Esses arquivos podemos assimilar com os paẽs a serem escolhidos. Podemos pegar cada um deles com o comando <code>git add</code>. Esse comando permite que você adicione os arquivos que desejar colocar pra entrar em um pacote / saco. Esse pacote é chamado de commit no git. 
 
@@ -55,7 +55,7 @@ Esses arquivos podemos assimilar com os paẽs a serem escolhidos. Podemos pegar
 Perceba que, quando eles não foram adicionados, serão mostrador em  <code>Untracked files</code>. Quando eles são adicionados, eles passam a <code>Changes to be committed</code>. Convertendo pra a linguagem do Git,<code> Untracked Files</code> eles estão fora da árvore, <code>Changes to be committed</code> estão dentro da árvore, pronto pra ser empacotado ou melhor commitado.
 
 <h2 class="topics">Adicionando dentro do commit / pacote </h2>
-Para transformar seus arquivos escolhidos em um commit basta rodar o comando <code>git commit -m "sua mensagem"</code> . A propriedade <code>-m</code> atribui uma mensagem ao seu commit, assim você terá um histórico e saberá o que cada um fez. Por exemplo: <code>git commit -m "Corrigindo bug do IE 8"</code>. Esse commit só de olhar você já sabe que,corrigiu o bug do navegador Internet explore. 
+Para transformar seus arquivos escolhidos em um commit basta rodar o comando <code>git commit -m "sua mensagem"</code> . A propriedade <code>-m</code> atribui uma mensagem ao seu commit, assim você terá um histórico e saberá o que cada um fez. Por exemplo: <code>git commit -m "Corrigindo bug do IE 8"</code>. Esse commit só de olhar você já sabe que, corrigiu o bug do navegador Internet explore. 
 
 Existe um atribuição <code>-a</code>, ela consiste em adicoinar arquivos automaticamente. Ahn, mas como assim? Calma jovem, já explico. No seu dia a dia você com certeza irá modificar vários arquivos, e irá commitar. Bom, a atribuição <code>-a</code> só funciona em arquivos <code>On branch master</code>, ou seja, que já foi commitado, que já foi adicionado alguma vez, já foi rastreado pelo git. Para saber como identificar esses aquivos é bem simples, antes do nome ele vem mostrando que foi modificado. Ele fica assim: <code>modified: nome-do-arquivo</code>.
 
@@ -65,9 +65,9 @@ Ah Anderson, agora fiz meu commit e ficou faltando um arquivo, o que eu faço ? 
 
 <code>git commit -m "Bug border-radius IE" --amend</code>
 
-<span class="notes">Vale lembrar que todos os arquivos devem estar dentro da árvore (Changes to be committed).</span>
-
 <li class="notes-code">Adiciona arquivos que não foram commitado ao último commit. Consideraçaõ: Esse comando irá mesclar. Apagará o outro commit,pegará todas suas informações e junta com esse commit atual.</li>
+
+<span class="notes">Vale lembrar que todos os arquivos que queira incluir, devem estar dentro da árvore (Changes to be committed).</span>
 
 <code>git commit -a -m "mensagem do commit"</code> 
 
