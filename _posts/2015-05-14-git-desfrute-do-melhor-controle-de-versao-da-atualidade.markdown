@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Git - Desfrute do melhor controle de versão da atualidade - Parte 1"
-published:   14-05-2015
+published:   17-05-2015
 categories: blog
 description: Queria passar um pouco dos comandos que aprendi e agora utilizo no dia a dia e expor minha interpretação deles pra vocês. Ele foi desenvolvido por Linus, o criador doLinux...
 comments: true
