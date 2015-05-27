@@ -9,29 +9,23 @@
 	<!-- META TAGS -->
 	
 	<!-- META TAGS FACEBOOK -->
-	<meta property="fb:admins" content="100002098715433" />
-	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     {% if page.image %}
-    <meta property="og:image" content="http://andersonweb.github.io/assets/imagem/git-par1.jpg">
+    <meta property="og:image" content="{{ site.url }}{{page.image }}">
     {% else %}
     <meta property="og:image" content="{{ "/assets/imagem/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
     {% endif %}
     <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:site_name" content="{{ site.title }}">
-    {% if page.published %}
-    <meta property="article:author" content="https://www.facebook.com/AndersonMenezesw" />
-    <meta property="article:publisher" content="https://www.facebook.com/AndersonMenezesw" />
-    <meta property="article:published_time" content="{{ page.published }}" />
-    {% endif %}
 
 	<!-- META TAGS TWITTER -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@amenezesw"> 
-	<meta name="twitter:title" content="{{ page.title }}">
-	<meta name="twitter:description" content="{{ page.description }}">
-	{% if page.image %}
-    <meta property="twitter:image:src" content="{{ site.url }}{{ page.img }}">
+    <meta name="twitter:site" content="@amenezesw">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    {% if page.image %}
+    <meta property="twitter:image:src" content="{{ site.url }}{{page.image }}">
     {% else %}
     <meta property="twitter:image:src" content="{{ "/assets/imagem/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
     {% endif %}
