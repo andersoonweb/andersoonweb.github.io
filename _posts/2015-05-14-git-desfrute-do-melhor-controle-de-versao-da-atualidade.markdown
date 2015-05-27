@@ -8,7 +8,7 @@ comments: true
 img:   "/assets/imagem/git-par1.jpg"
 edit: https://github.com/andersonweb/andersonweb.github.io/blob/master/_posts/2015-05-14-git-desfrute-do-melhor-controle-de-versao-da-atualidade.markdown
 ---
-
+{{ site.url }}{{ page.img }}
 <h2 class="topics">Meus primeiros passos...</h2>
 Recentemente resolvi me aprofundar no Git, um sistema de controle de versão bem comum entre desenvolvedores. Queria conhecer  pouco mais dos comandos básicos <code>git add</code> , <code>git commit</code> e <code>git push</code>. Queria ver as mágicas que ele faz.  
 
