@@ -5,7 +5,7 @@ published:   17-05-2015
 categories: blog
 description: Queria passar um pouco dos comandos que aprendi e agora utilizo no dia a dia e expor minha interpretação deles pra vocês. Ele foi desenvolvido por Linus, o criador doLinux...
 comments: true
-img:   "/assets/imagem/git-par1.jpg"
+image:   "/assets/imagem/git-par1.jpg"
 edit: https://github.com/andersonweb/andersonweb.github.io/blob/master/_posts/2015-05-14-git-desfrute-do-melhor-controle-de-versao-da-atualidade.markdown
 ---
 {{ site.url }}{{ page.img }}
