@@ -3,7 +3,7 @@ layout: post
 title:  "Git - Desfrute do melhor controle de versão da atualidade - Parte 1"
 published:   31-05-2015
 categories: blog
-description: Queria passar um pouco dos comandos que aprendi e agora utilizo no dia a dia e expor minha interpretação deles pra vocês. Ele foi desenvolvido por Linus, o criador doLinux...
+description: Queria passar um pouco dos comandos que aprendi e agora utilizo no dia a dia e expor minha interpretação deles pra vocês.
 comments: true
 image:   "/assets/imagem/git-par1.jpg"
 edit: https://github.com/andersonweb/andersonweb.github.io/blob/master/_posts/2015-05-14-git-desfrute-do-melhor-controle-de-versao-da-atualidade.markdown
@@ -22,7 +22,7 @@ O git é mais voltado pra grande e médias equipes, mas isso não lhe impede de 
 <span class="notes">Para ter um melhor compreendimento necessário que saiba o básico de <a target="_blank" class="link-po-ex" href="http://www.hardware.com.br/dicas/basico-linha-comando.html">linha de comando.</a></span>
 
 <h2 class="topics">Instalação e iniciando o git</h2>
-A instalação do Git é bem simples, ele funciona tanto no Windows,Linux e Mac. <a target="_blank" class="link-po-ex" href="https://git-scm.com/book/pt-br/v1/Primeiros-passos-Instalando-Git">Veja aqui como instalar</a>. 
+A instalação do Git é bem simples, ele funciona tanto no Windows, Linux e Mac. <a target="_blank" class="link-po-ex" href="https://git-scm.com/book/pt-br/v1/Primeiros-passos-Instalando-Git">Veja aqui como instalar</a>. 
 Seguindo, depois da instação é preciso gerar um <a class="link-po-ex" href="https://help.github.com/articles/generating-ssh-keys/">keygen</a>. O que é isso ? É uma chave <a href="http://pt.wikipedia.org/wiki/SSH" class="link-po-ex">SSH</a> que te conecta do servidor local ao servidor web. Um exemplo bem conhecido é o <a href="#" class="link-po-ex">Github</a>, aonde tem um repositório local e outro na web. A  <a class="link-po-ex" href="https://help.github.com/articles/generating-ssh-keys">keygen</a> faz a ligação para que possa enviar suas atualizações para o servidor web ou baixa-las do servidor web para o servidor local. <a href="https://help.github.com/articles/generating-ssh-keys/" class="link-po-ex">Nesse tutorial</a> mostra como instalar a keygen, é muito simples, em qualquer S.O, ainda de quebra, mostra como fazer a conexão como o <a class="link-po-ex" href="http://github.ciom">Github</a>.
 
 <span class="notes">Muito cuidado com sua chave privada. Ela é a que não tem a extensão .pub. </span>
