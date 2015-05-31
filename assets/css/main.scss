@@ -1,13 +1,10 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
 ---
-// Mixins
-@import 'mixin/prefix.scss';
 // Config modules
 @import 'modules/_vars.scss';
 @import 'modules/_buttons.scss';
 @import 'modules/_lists.scss';
-@import 'modules/_navs.scss';
 @import 'modules/_post.scss';
 @import 'modules/_typography.scss';
 @import 'modules/_reset.scss';
