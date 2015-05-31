@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Git - Desfrute do melhor controle de versão da atualidade - Parte 1"
-published:   17-05-2015
+published:   31-05-2015
 categories: blog
 description: Queria passar um pouco dos comandos que aprendi e agora utilizo no dia a dia e expor minha interpretação deles pra vocês. Ele foi desenvolvido por Linus, o criador doLinux...
 comments: true
@@ -64,7 +64,7 @@ Ah Anderson, agora fiz meu commit e ficou faltando um arquivo, o que eu faço ? 
 
 <code>git commit -m "Bug border-radius IE" --amend</code>
 
-<li class="notes-code">Adiciona arquivos que não foram commitado ao último commit. Consideraçaõ: Esse comando irá mesclar. Apagará o outro commit,pegará todas suas informações e junta com esse commit atual.</li>
+<li class="notes-code">Adiciona arquivos que não foram commitado ao último commit. Esse comando irá mesclar. Apagará o outro commit, pegará todas suas informações e junta com as informações do commit atual.</li>
 
 <span class="notes">Vale lembrar que todos os arquivos que queira incluir, devem estar dentro da árvore (Changes to be committed).</span>
 
