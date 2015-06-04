@@ -6,7 +6,7 @@ categories: blog
 description: Nesse artigo vamos falar como visualizar todos os commits, como desfaze-los,como excluir o commit e recuperar os arquivos...
 comments: true
 image:   "/assets/imagem/git-par2.jpg"
-edit: https://github.com/andersonweb/andersonweb.github.io/blob/master/_posts/2015-05-14-git-desfrute-do-melhor-controle-de-versao-da-atualidade.markdown
+edit: https://github.com/andersonweb/andersonweb.github.io/blob/master/_posts/2015-06-04-git-desfrute-do-melhor-controle-de-versao-da-atualidade-parte-2.markdown
 
 ---
 No artigo <a href="http://andersonweb.github.io/blog/2015/05/14/git-desfrute-do-melhor-controle-de-versao-da-atualidade.html" class="link-po-ex">parte 1</a>, abordamos alguns comandos básicos e suas atribuições. Nesse artigo vamos falar como visualizar todos os commits, como desfazê-los, como excluir o commit e recuperar os arquivos que ali estão dentro, também falaremos como reverte comandos, apagar um arquivo da árvore e guardar arquivos e visualizar alterações.
