@@ -9,13 +9,13 @@ image:   "/assets/imagem/git-par2.jpg"
 edit: https://github.com/andersonweb/andersonweb.github.io/blob/master/_posts/2015-06-04-git-desfrute-do-melhor-controle-de-versao-da-atualidade-parte-2.markdown
 
 ---
-No artigo <a href="http://andersonweb.github.io/blog/2015/05/14/git-desfrute-do-melhor-controle-de-versao-da-atualidade.html" class="link-po-ex">parte 1</a>, abordamos alguns comandos básicos e suas atribuições. Nesse artigo vamos falar como visualizar todos os commits, como desfazê-los, como excluir o commit e recuperar os arquivos que ali estão dentro, também falaremos como reverte comandos, apagar um arquivo da árvore e guardar arquivos e visualizar alterações.
+No artigo <a href="http://andersonweb.github.io/blog/2015/05/14/git-desfrute-do-melhor-controle-de-versao-da-atualidade.html" class="link-po-ex">parte 1</a>, abordamos alguns comandos básicos e suas atribuições. Nesse artigo vamos falar como visualizar todos os commits, como desfazê-los, como excluir o commit e recuperar os arquivos que ali estão dentro, também falaremos como reverter comandos, apagar um arquivo da árvore e guardar arquivos e visualizar alterações.
 
 <h2 class="topics">O git é muito seguro</h2>
-Fixa uma coisa na cabeça, com o git você não perde nada, absolutamente nada, você consegue ir revertendo todos os comandos. Alguns comandos tem que ser usado com um pouco de cautela.
+Fixe uma coisa na cabeça, com o git você não perde nada, absolutamente nada, você consegue ir revertendo todos os comandos. Alguns comandos tem que ser usados com um pouco de cautela.
 
 <h2 class="topics">Como vizualziar commits, importância da mensagem</h2>
-O comando <code>git log</code>, lista todos os commits que foram feito. Ele exibe algumas informações. Mostra, o <code>Hash</code> do commit, que uma numeração do mesmo. Eles nunca se repetem. Mostra o Autor do commit, a data que foi commitado e a mensagem que cada foi passada. 
+O comando <code>git log</code>, lista todos os commits que foram feitos. Ele exibe algumas informações. Mostra, o <code>Hash</code> do commit, que uma numeração do mesmo. Eles nunca se repetem. Mostra o Autor do commit, a data que foi commitado e a mensagem que cada foi passada. 
 
 Está aí a importância em informar uma mensagem a cada um commit, imagine se nenhum tivesse mensagem, como você iria identificar o processo ? E se você precisasse excluir alguns deles, como iria saber qual era? E se você tivesse trabalhando em equipe e fulano X tivesse feito uma alteração e não colocasse a mensagem, como você iria saber que essa tarefa já foi resolvida?
 
@@ -23,7 +23,7 @@ Está aí a importância em informar uma mensagem a cada um commit, imagine se n
 Conheço duas formas de deletar commit, a primeira é a que mais uso, <code>git reset HEAD~N</code>. O <code>N</code> é o número do commit que queira deletar, exemplo <code>git reset HEAD~2</code>. 
 <span class="notes">A numeração passada no comando <code>git reset HEAD~N</code> apaga desde o início até a numeração passada. Isso quer dizer se, passar o número 5 por exemplo, ele irá apagar do primeiro commit até o cinco.</span>
 
-Por padrão o commit é apagado e todos os arquivos voltam a ser <code>Untracked files</code>. Existe atribuições que pode modificar essa posição. A atribuição <code>--hard</code> remove o commit literalmente, os arquivos não volta ser <code>Untracked files</code> e muito menos <code>Changes to be committed</code>. A atribuição <code>--soft</code>, apaga o commit e joga todos os arquivos em <code>Changes to be committed</code>. O comando <code>git reset HEAD~N --soft</code>, pode ser um alternativa a atribuição <code>--amend</code>.
+Por padrão o commit é apagado e todos os arquivos voltam a ser <code>Untracked files</code>. Existe atribuições que podem modificar essa posição. A atribuição <code>--hard</code> remove o commit literalmente, os arquivos não volta ser <code>Untracked files</code> e muito menos <code>Changes to be committed</code>. A atribuição <code>--soft</code>, apaga o commit e joga todos os arquivos em <code>Changes to be committed</code>. O comando <code>git reset HEAD~N --soft</code>, pode ser um alternativa a atribuição <code>--amend</code>.
 
 Anderson, sem querer executei <code>git reset HEAD~N --hard</code> no commit e perdi o trabalho do dia todo, e agora, o que eu faço? Meu chefe vai me matar!!! Lembra do primeiro tópico que eu falei que com o git você não perde nada?! Sim, é possível você recuperar um commit mesmo ele sendo deletado literalmente. Para efetuar a recuperação, rode o comando <code>git reflog</code> ele listará todos commits deletados. 
 
@@ -32,7 +32,7 @@ Para traze-lô de volta precisará executar o comando <code>git rebase seu-hash<
 <span class="notes">O comando <code>git rebase</code> vai ser mais explorado em outros artigos.</span>
 
 <h2 class="topics">Revisão do comando git reset e suas atribuições</h2>
-
+senta e é muito bonita mesmo, seria legal um review, eu já fiz o meu 
 <code>git reset HEAD~N</code>
 
 <li class="notes-code">Apaga o commit e volta a ser <code>Untracked files</code>. 
@@ -44,7 +44,7 @@ Para traze-lô de volta precisará executar o comando <code>git rebase seu-hash<
 
 <code>git reset HEAD~N --soft</code> 
 
-<li class="notes-code">Deleta o commit e seus arquivos passa a ser <code>Changes to be committed</code>.</li>
+<li class="notes-code">Deleta o commit e seus arquivos passam a ser <code>Changes to be committed</code>.</li>
 
 <code>git reflog</code>
 
