@@ -3,13 +3,13 @@ layout: post
 title:  "Git - Desfrute do melhor controle de versão da atualidade - Parte 2"
 published:   04-06-2015
 categories: blog
-description: Nesse artigo vamos falar como visualizar todos meus commits, como desfaze-los,como excluir o commit e recuperar os arquivos...
+description: Nesse artigo vamos falar como visualizar todos os commits, como desfaze-los,como excluir o commit e recuperar os arquivos...
 comments: true
 image:   "/assets/imagem/git-par2.jpg"
 edit: https://github.com/andersonweb/andersonweb.github.io/blob/master/_posts/2015-05-14-git-desfrute-do-melhor-controle-de-versao-da-atualidade.markdown
 
 ---
-No artigo <a href="http://andersonweb.github.io/blog/2015/05/14/git-desfrute-do-melhor-controle-de-versao-da-atualidade.html" class="link-po-ex">parte 1</a>, abordamos alguns comandos básicos e suas atribuições. Nesse artigo vamos falar como visualizar todos meus commits, como desfazê-los, como excluir o commit e recuperar os arquivos que ali estão dentro, também falaremos como reverte comandos, apagar um arquivo do índice e guardar arquivos e visualizar alterações.
+No artigo <a href="http://andersonweb.github.io/blog/2015/05/14/git-desfrute-do-melhor-controle-de-versao-da-atualidade.html" class="link-po-ex">parte 1</a>, abordamos alguns comandos básicos e suas atribuições. Nesse artigo vamos falar como visualizar todos os commits, como desfazê-los, como excluir o commit e recuperar os arquivos que ali estão dentro, também falaremos como reverte comandos, apagar um arquivo da árvore e guardar arquivos e visualizar alterações.
 
 <h2 class="topics">O git é muito seguro</h2>
 Fixa uma coisa na cabeça, com o git você não perde nada, absolutamente nada, você consegue ir revertendo todos os comandos. Alguns comandos tem que ser usado com um pouco de cautela.
