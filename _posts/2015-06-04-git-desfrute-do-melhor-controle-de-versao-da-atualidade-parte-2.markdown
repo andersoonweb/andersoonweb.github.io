@@ -71,7 +71,7 @@ Uma coisa que acontece frequentemente é, modificar o arquivo e depois se arrepe
 
 Para deleter um arquivo o mesmo precisa está em <code>Untracked files</code>, se não tiver só executar as instruções passada nesse tópico <a href="#revertendo" class="link-po-ex">aqui</a>. Para verificar se está dentro da árvore ou não use o comando <code>git status</code>. Após fazer a verificação rode o comando <code>git clean -f nome-do-arquivo</code> para deletar completamente do seu projeto.
 
-<span class="notes">A atribuição <code> -f </code> força o clean a deleter completamente.</span>
+<span class="notes">A atribuição <code> -f </code> força o clean a deleter.</span>
 
 <h2 class="topics">Verificando alterações</h2>
 
