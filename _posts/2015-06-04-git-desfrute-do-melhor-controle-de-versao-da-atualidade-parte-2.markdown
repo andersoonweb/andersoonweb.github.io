@@ -14,7 +14,7 @@ No artigo <a href="http://andersonweb.github.io/blog/2015/05/14/git-desfrute-do-
 <h2 class="topics">O git é muito seguro</h2>
 Fixe uma coisa na cabeça, com o git você não perde nada, absolutamente nada, você consegue ir revertendo todos os comandos. Alguns comandos tem que ser usados com um pouco de cautela.
 
-<h2 class="topics">Como vizualziar commits, importância da mensagem</h2>
+<h2 class="topics">Como visualizar commits, importância da mensagem</h2>
 O comando <code>git log</code>, lista todos os commits que foram feitos. Ele exibe algumas informações. Mostra, o <code>Hash</code> do commit, que uma numeração do mesmo. Eles nunca se repetem. Mostra o Autor do commit, a data que foi commitado e a mensagem que cada foi passada. 
 
 Está aí a importância em informar uma mensagem a cada um commit, imagine se nenhum tivesse mensagem, como você iria identificar o processo ? E se você precisasse excluir alguns deles, como iria saber qual era? E se você tivesse trabalhando em equipe e fulano X tivesse feito uma alteração e não colocasse a mensagem, como você iria saber que essa tarefa já foi resolvida?
