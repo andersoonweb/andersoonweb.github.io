@@ -6,7 +6,7 @@ categories: blog
 description: Aprenda como usar o Can i use, uma tabela de suporte dos navegadores na linha de comando. 
 comments: true
 image:   "/assets/imagem/caniuse.png"
-edit:
+edit: https://github.com/andersonweb/andersonweb.github.io/blob/master/_posts/2015-07-01-usando-can-i-use-na-linha-de-comando.md
 ---
 <h2 class="topics">Introdução</h2>
 Quem nunca acessou o <a target="_blank" href="http://caniuse.com/" class="link-po-ex">O Can i use</a> para verificar se alguma propriedade é compartível com determinado navegador ?!
