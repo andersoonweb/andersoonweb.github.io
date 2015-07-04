@@ -9,12 +9,12 @@ image:   "/assets/imagem/caniuse.png"
 edit: https://github.com/andersonweb/andersonweb.github.io/blob/master/_posts/2015-07-01-usando-can-i-use-na-linha-de-comando.md
 ---
 <h2 class="topics">Introdução</h2>
-Quem nunca acessou o <a target="_blank" href="http://caniuse.com/" class="link-po-ex">O Can i use</a> para verificar se alguma propriedade é compartível com determinado navegador ?!
+Quem nunca acessou o <a target="_blank" href="http://caniuse.com/" class="link-po-ex">O Can i use</a> para verificar se alguma propriedade é compatível com determinado navegador ?!
 
-Para aqueles que nunca acessaram e, não conhece o <a target="_blank" href="http://caniuse.com/" class="link-po-ex">Can i use</a>, é uma tabela de suporte dos navegadores. Por exemplo, você quer usar uma nova propriedade do CSS3 e quer saber quais navegadores o suportam e, em quais versões.
+Para aqueles que nunca acessaram, ou não conhece o <a target="_blank" href="http://caniuse.com/" class="link-po-ex">Can i use</a>, é uma tabela de suporte dos navegadores. Por exemplo, você quer usar uma nova propriedade do CSS3 e quer saber quais navegadores o suportam e, em quais versões.
 
-Na imagem a seguir, mostro a tabela de suporte da propriedade border-radius no navegadores.
-No final do box ele dispõe uma legenda aonde informa o sentido das cores.
+Na imagem a seguir mostro a tabela de suporte da propriedade border-radius nos navegadores.
+No final do box ele dispõe uma legenda onde informa o sentido das cores.
 
 <img src="/assets/imagem/caniuse-border-radius.png" alt="Can i use border-radius">
 <span class="notes">As legendas estão em inglês, mas é muito fácil de compreender</span>
