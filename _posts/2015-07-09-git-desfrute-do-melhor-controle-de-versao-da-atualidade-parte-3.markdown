@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Git - Desfrute do melhor controle de versão da atualidade - Parte (3/5)"
-published:   09-07-2015
+published:   13-07-2015
 categories: blog
 description: Nesse artigo vamos falar sobre organização e como trabalhar em equipe.
 comments: true
