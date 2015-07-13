@@ -3,7 +3,7 @@ layout: post
 title:  "Git - Desfrute do melhor controle de versão da atualidade - Parte (3/5)"
 published:   09-07-2015
 categories: blog
-description: Nesse artigo vamos falar como visualizar todos os commits, como desfaze-los,como excluir o commit e recuperar os arquivos...
+description: Nesse artigo vamos falar sobre organização e como trabalhar em equipe.
 comments: true
 image:   "/assets/imagem/git-part3.jpg"
 edit: https://github.com/andersonweb/andersonweb.github.io/blob/master/_posts/2015-07-01-usando-can-i-use-na-linha-de-comando.md
