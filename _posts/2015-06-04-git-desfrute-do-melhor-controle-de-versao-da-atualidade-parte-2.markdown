@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Git - Desfrute do melhor controle de versão da atualidade - Parte 2"
+title:  "Git - Desfrute do melhor controle de versão da atualidade - Parte (2/5)"
 published:   04-06-2015
 categories: blog
 description: Nesse artigo vamos falar como visualizar todos os commits, como desfaze-los,como excluir o commit e recuperar os arquivos...
@@ -9,6 +9,13 @@ image:   "/assets/imagem/git-par2.jpg"
 edit: https://github.com/andersonweb/andersonweb.github.io/blob/master/_posts/2015-06-04-git-desfrute-do-melhor-controle-de-versao-da-atualidade-parte-2.markdown
 
 ---
+<h4 class="topics-mini">Esse é o post #2 de 5 para esclarecer sobre Git</h4>
+<a class="link-po-ex" href="/blog/2015/05/14/git-desfrute-do-melhor-controle-de-versao-da-atualidade.html">Parte 1</a>
+
+<a class="link-po-ex" href="#">Está é a Parte 2</a>
+
+<a class="link-po-ex" href="/blog/2015/07/09/git-desfrute-do-melhor-controle-de-versao-da-atualidade-parte-3.html">Parte 3</a>
+
 No artigo <a href="http://andersonweb.github.io/blog/2015/05/14/git-desfrute-do-melhor-controle-de-versao-da-atualidade.html" class="link-po-ex">parte 1</a>, abordamos alguns comandos básicos e suas atribuições. Nesse artigo vamos falar como visualizar todos os commits, como desfazê-los, como excluir o commit e recuperar os arquivos que ali estão dentro, também falaremos como reverter comandos, apagar um arquivo da árvore e guardar arquivos e visualizar alterações.
 
 <h2 class="topics">O git é muito seguro</h2>
@@ -98,6 +105,6 @@ Como citado na <a href="#" class="link-po-ex">parte 1</a>, no seu dia a dia voc�
 <span class="notes">Se tiver mais de um arquivo a ser movido/revertido/excluído, basta seperá-los através de espaço. Exemplo: <code>git reset HEAD arquivo1.scss arquivo2.html</code>. Serve para qualquer comando acima. Não recomendo no <code>git diff</code>, pois, vai embolar muito.</span>
 
 <h2 class="topics">Stash, a gaveta mágica do Git</h2>
-<h2 class="topics"><a href="#">Continua...</a></h2>
+<h2 class="topics"><a href="/blog/2015/07/09/git-desfrute-do-melhor-controle-de-versao-da-atualidade-parte-3.html">Continua...</a></h2>
 
 

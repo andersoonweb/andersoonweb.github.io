@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Git - Desfrute do melhor controle de versão da atualidade - Parte 1"
+title:  "Git - Desfrute do melhor controle de versão da atualidade - Parte (1/5)"
 published:   31-05-2015
 categories: blog
 description: Queria passar um pouco dos comandos que aprendi e agora utilizo no dia a dia e expor minha interpretação deles pra vocês.
@@ -8,6 +8,13 @@ comments: true
 image:   "/assets/imagem/git-par1.jpg"
 edit: https://github.com/andersonweb/andersonweb.github.io/blob/master/_posts/2015-05-14-git-desfrute-do-melhor-controle-de-versao-da-atualidade.markdown
 ---
+<h4 class="topics-mini">Esse é o post #2 de 5 para esclarecer sobre Git</h4>
+<a class="link-po-ex" href="#">Está é a Parte 1</a>
+
+<a class="link-po-ex" href="/blog/2015/06/04/git-desfrute-do-melhor-controle-de-versao-da-atualidade-parte-2.html">Parte 2</a>
+
+<a class="link-po-ex" href="/blog/2015/07/09/git-desfrute-do-melhor-controle-de-versao-da-atualidade-parte-3.html">Parte 3</a>
+
 <h2 class="topics">Meus primeiros passos...</h2>
 Recentemente resolvi me aprofundar no Git, um sistema de controle de versão bem comum entre desenvolvedores. Queria conhecer  pouco mais dos comandos básicos <code>git add</code> , <code>git commit</code> e <code>git push</code>. Queria ver as mágicas que ele faz.  
 
@@ -78,5 +85,5 @@ Para verificar todos os commit basta rodar o comando ...
 
 
 <h2 class="topics">Continua...</h2>
-
+<h2 class="topics"><a href="#">Continua...</a></h2>
 
