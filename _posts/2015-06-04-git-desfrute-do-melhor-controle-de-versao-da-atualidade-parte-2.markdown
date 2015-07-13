@@ -9,7 +9,7 @@ image:   "/assets/imagem/git-par2.jpg"
 edit: https://github.com/andersonweb/andersonweb.github.io/blob/master/_posts/2015-06-04-git-desfrute-do-melhor-controle-de-versao-da-atualidade-parte-2.markdown
 
 ---
-<h4 class="topics-mini">Esse é o post #2 de 5 para esclarecer sobre Git</h4>
+<h4 class="topics-mini">Esse é o post #2 de 5</h4>
 <a class="link-po-ex" href="/blog/2015/05/14/git-desfrute-do-melhor-controle-de-versao-da-atualidade.html">Parte 1</a>
 
 <a class="link-po-ex" href="#">Está é a Parte 2</a>

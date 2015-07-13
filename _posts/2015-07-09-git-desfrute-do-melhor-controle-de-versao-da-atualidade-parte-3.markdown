@@ -9,7 +9,7 @@ image:   "/assets/imagem/git-part3.jpg"
 edit: https://github.com/andersonweb/andersonweb.github.io/blob/master/_posts/2015-07-01-usando-can-i-use-na-linha-de-comando.md
 
 ---
-<h4 class="topics-mini">Esse é o post #3 de 5 para esclarecer sobre Git</h4>
+<h4 class="topics-mini">Esse é o post #3 de 5</h4>
 <a class="link-po-ex" href="/blog/2015/05/14/git-desfrute-do-melhor-controle-de-versao-da-atualidade.html">Parte 1</a>
 
 <a class="link-po-ex" href="/blog/2015/06/04/git-desfrute-do-melhor-controle-de-versao-da-atualidade-parte-2.html">Parte 2</a>
@@ -126,7 +126,7 @@ Esse comando trás todas alterações que foram feita em outra branch e que não
 No meu caso, quando termino a tarefa completamente faço o merge para a branch master, a branch padrão, onde fica tudo resolvido, nada vai pra lá pela metade ou faltando resolver quaisquer tarefa. Lembrando que, você vai até a branch que quer atualizar, e rode o comando.
 
 <h4 class="topics-mini">Diferença entre Merge e Rebase </h4>
-O rebase é mais preguicoso, ele reconstrói a árvore e aplica o commit por cima. Já o merge, cria um novo commit para juntar as duas "pontas". Assim, mantem um histórico melhor. 
+O rebase é mais preguicoso, ele reconstrói a árvore e aplica o commit por cima. Já o merge, cria um novo commit para juntar as duas "pontas". Assim, mantêm um histórico melhor. 
 Como estamos falando sobre organização, convenhamos sempre usar merge.
 
 <h2 class="topics">Conflitos</h2>
