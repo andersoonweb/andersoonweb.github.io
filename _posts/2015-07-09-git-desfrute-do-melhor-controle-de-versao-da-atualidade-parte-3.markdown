@@ -131,4 +131,5 @@ Como estamos falando sobre organização, convenhamos sempre usar merge.
 
 Esse assunto é um pouco complicado então, treine muito, depois que treinar muito e ficou bom, treine mais!
 <h2 class="topics">Conflitos</h2>
+
 <h2 class="topics"><a href="#">Continua...</a></h2>
