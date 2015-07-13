@@ -126,8 +126,9 @@ Esse comando trás todas alterações que foram feita em outra branch e que não
 No meu caso, quando termino a tarefa completamente faço o merge para a branch master, a branch padrão, onde fica tudo resolvido, nada vai pra lá pela metade ou faltando resolver quaisquer tarefa. Lembrando que, você vai até a branch que quer atualizar, e rode o comando.
 
 <h4 class="topics-mini">Diferença entre Merge e Rebase </h4>
-O rebase é mais preguicoso, ele reconstrói a árvore e aplica o commit por cima. Já o merge, cria um novo commit para juntar as duas "pontas". Assim, mantêm um histórico melhor. 
+O rebase é mais preguiçoso, ele reconstrói a árvore e aplica o commit por cima. Já o merge, cria um novo commit para juntar as duas "pontas". Assim, mantêm um histórico melhor. 
 Como estamos falando sobre organização, convenhamos sempre usar merge.
 
+Esse assunto é um pouco complicado então, treine muito, depois que treinar muito e ficou bom, treine mais!
 <h2 class="topics">Conflitos</h2>
 <h2 class="topics"><a href="#">Continua...</a></h2>
