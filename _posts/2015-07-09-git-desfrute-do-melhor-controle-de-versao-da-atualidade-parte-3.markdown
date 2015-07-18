@@ -84,7 +84,7 @@ Sem mais delongas, branch serve para separa suas tarefas. No exemplo acima ela e
 
 Exemplo do dia a dia: Seu time tem 20 tarefas para fazer, e a equipe contém 10 integrantes, dividimos e cada um ficaram com duas tarefas, cada tarefa será uma nova branch, por  exemplo uns dos integrantes ficou encarregado de resolver a Resolução Bug IE e Remover códigos inutilizáveis, cada tarefa dessa será uma branch nova.
 
-Quando criamos um branch nova as alterações que fizermos estará sempre nela. Por padrão o git nos dar um branch que se chama master. Se criamos uma nova branch e modificar algum arquivo estando na branch que criamos esse arquivo não estará modificado em outras branch. Essa é uma parte muito delicada. Vale ressaltar que quando criamos uma branch dentro de outra branch as alterações da branch que estávamos irá acompanhar a branch criada. 
+Quando criamos um branch nova as alterações que fizermos estará sempre nela. Por padrão o git nos dá um branch que se chama master. Se criamos uma nova branch e modificar algum arquivo estando na branch que criamos esse arquivo não estará modificado em outras branch. Essa é uma parte muito delicada. Vale ressaltar que quando criamos uma branch dentro de outra branch as alterações da branch que estávamos irá acompanhar a branch criada. 
 
 Por exemplo: Estamos na branch <code>master</code> que é a padrão e, criamos um branch com o nome <code>bugfix</code>, tudo que tem na brach master vai também ter na branch <code>bugfix</code>. Agora, modificamos algum arquivo na branch bugfix. Essa alteração não vai ser feita também na branch master, compreende?
 
@@ -103,11 +103,11 @@ Para trabalhamos com branch vamos usar os comandos <code>git checkout</code> par
 <span class="notes">Esse comando é muito simples! O <code>nome-da-branch</code> deve ser substituído por o nome da branchs que você criou. Ah, esqueci as branch que criei, e agora?! O git disponibiliza todas branch criada através do comando <code>git branch</code>.</span>
 
 <h4 class="topics-mini">Deletando</h4>
-<code>git checkout -d nome-da-branch</code>
+<code>git branch -d nome-da-branch</code>
 
 <span class="notes">O atributo -d permite que delete a branch, vale lembrar que você não pode está dentro dela, se estiver, use <code>git checkout nome-da-branch</code> para mudar de brach. </span>
 
-<code>git checkout -D nome-da-branch</code>
+<code>git branch -D nome-da-branch</code>
 
 <span class="notes">O atributo maiúsculo pode ser usado quando você faz alguma alterações em uma branch e não enviou as alterações para outra e mesmo assim você pode deletar com esse comando. </span>
 
