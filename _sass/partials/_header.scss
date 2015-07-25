@@ -20,22 +20,26 @@
 	text-align: center;
 	padding-bottom: 6px;
 	transition: all 0.5s ease-out;
+	
 	&:hover{
 		border-top: 1px solid $color-logo;
 		border-bottom: 1px solid $color-logo;
 	}
 }
-.logo a{
-	transition: all 0.5s ease-out;	
-	color: $color-logo - 10;
-	font-family: 'PoetsenOne';
-	font-size: 30px;
-	font-weight: 400;
-	&:hover{color:$background-main}
-	span {
-		font-size: 20px;
-		display: block;
-	}
+.logo 
+	
+	a{
+		transition: all 0.5s ease-out;	
+		color: $color-logo - 10;
+		font-family: 'PoetsenOne';
+		font-size: 30px;
+		font-weight: 400;
+		&:hover{color:$background-main}
+		
+		span {
+			font-size: 20px;
+			display: block;
+		}
 }
 .align-header{
 	margin: 0 15px;
@@ -46,6 +50,7 @@
 	margin-top: 30px;
 	color: $color-text-header;
 	font-family: 'Open Sans', sans-serif;
+	
 	p{
 		margin: 8px 6px;
 	}
@@ -74,6 +79,7 @@
 		float: left;
 		display: table;
 	}
+	
 	i{
 		display: table-cell;
 	    vertical-align: middle
@@ -111,8 +117,6 @@
 // Bar
 .bar{
 	width: 60px;
-	height: 60px;
-	//background: $color-background-header;
 	height: 60px;
 	position: fixed;
 	top: 20px;
