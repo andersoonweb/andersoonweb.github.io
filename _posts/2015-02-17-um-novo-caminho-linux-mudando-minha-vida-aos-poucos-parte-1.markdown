@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Um novo caminho,linux, mudando minha vida aos poucos. Parte 1."
+title:  "Um novo caminho, linux, mudando minha vida aos poucos. Parte 1."
 published:   19-02-2015
 categories: blog
 description: Eu sempre fui um cara que dou muita importância para a beleza daquilo que estou usando. Cerca de dois anos atrás eu chegava do colégio por volta do meio dia e assistia a uma aula no canal da Study Class, sobre Introdução ao CSS dinamico com less CSS. Ele usava um sistema que não sabia o qual era, mas achava bem bonito...
