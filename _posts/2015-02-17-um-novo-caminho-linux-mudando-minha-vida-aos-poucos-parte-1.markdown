@@ -12,7 +12,7 @@ Eu sempre fui um cara que dou muita importância para a beleza daquilo que estou
 
 O tempo foi se passando e eu descobri que sistema era aquele, era o Linux <a class="link-po-ex" target="_blank" href="http://www.ubuntu.com/">Ubuntu</a>, logo fui procurar saber sobre, e havia muita gente falando que era muito bom, que era open source e, que Linux é vida. Não tinha muita noção das coisas, não sabia que ele tinha limitações, por exemplo, não podemos usar programas do adobe lá, sem emular. E isso pode trazer problemas pra usuários que em do Windows.
 
-<h2 class="topics">Problemas,sem paciência,afobado...</h2>
+<h2 class="topics">Problemas, sem paciência, afobado...</h2>
 Fui até um técnico da minha cidade com meu computador que não era muito legal, acho que era core dois duos com um HD de 200, eu acho, mas que me serviu muito. Pedi que fizesse a integração dos dois sistemas operacionais no meu computador que é chamado de dual boot. O jovem me entregou o computador, e no mesmo dia inventei que o PC estava travando que ele não sabia instalar, blá,blá blá… Isso tudo porque achei o sistema muito diferente. Ele formatou e colocou o Windows novamente.
 
 Com o passar do tempo lá vou eu acompanhando a comunidade e vendo muitas pessoas falando bem do Linux e eu pensando: “Tenho que se bom também, tenho que usar Linux!”. Firmei na minha cabeça isso ai. Adquirindo um novo computador pensei, agora sim posso colocar dois sistemas aqui sem travar, e lá vamos nós pra mais uma luta.
