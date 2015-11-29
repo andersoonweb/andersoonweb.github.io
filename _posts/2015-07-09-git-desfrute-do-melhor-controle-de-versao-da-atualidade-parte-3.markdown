@@ -24,18 +24,18 @@ Imagine você está resolvendo um bug do Firefox e chega seu chefe pedindo pra q
 
 Suponha que não você não vai commitar, porque a tarefa está incompleta, que bagunça vai ficar seu índice, hein?!
 
-O stash veio pra salvar seu projeto e não deixar seu índice um bagunça.   
+O stash veio pra salvar seu projeto e não deixar seu índice uma bagunça.   
 
 <h2 class="topics">Mantanha-se sempre organizado</h2>
 
-O stash realmente é uma gaveta, ele guarda seus arquivos e na hora que quiser pode ter ele de volta novamente, sem deixar seu índice poluídissimo e sem embolações no projeto, evitando fazer commits com alterações erradas.
+O stash realmente é uma gaveta, ele guarda seus arquivos e na hora que quiser pode ter ele de volta novamente, sem deixar seu índice poluidissímo e sem embolações no projeto, evitando fazer commits com alterações erradas.
 
 Considerando que seu índice esteja cheio de arquivo e todos eles estão  <code>Changes to be commited</code> e você queira guardá-los, execute o comando <code>git stash</code>. Prosseguindo verifique se tem algum arquivos no índice com o comando <code> git status</code>. Provavelmente não haverá nenhum. Todos arquivos foram guardado. 
 
 <span class="notes">É necessário que todos os arquivos estejam em <code>Changes to be commited</code>.</span>
 
 <h2 class="topics">Entendendo as informações passada na lista</h2>
-Ao executar <code>git stash list </code>, primeiramente ele mostra a numeração do stash <code>stash@{0}</code>. Em seguida mostrar a branch que foi criado o stash. Vamos falar de branch breve, você vai entender. Após, mostra a mensagem atribuída ou a numeração do stash.
+Ao executar <code>git stash list</code>, primeiramente ele mostra a numeração do stash <code>stash@{0}</code>. Em seguida mostrar a branch que foi criado o stash. Vamos falar de branch breve, você vai entender. Após, mostra a mensagem atribuída ou a numeração do stash.
 
 <img src="/assets/imagem/example-stash-list.png" alt="">
 
@@ -44,7 +44,7 @@ Ao executar <code>git stash list </code>, primeiramente ele mostra a numeração
 Após executar o comando para guardar podemos visualizar com <code>git stash list</code>. Irá aparecer tudo que você guardou em forma de lista. Ele fica armazenado como se fosse um commit. Isso quer dizer que a cada vez que você for guardar, ele separá uma gaveta particular só pra aqueles arquivos. Confira uma lista de várias gavetas.
 
 ![Stash list](/assets/imagem/stash-list.png)
-Por padrão o comando <code>git stash</code> salva o stash nomeando como Update README.md. Mas você tem o controle de toda situação, pode salvar já passando um nome, com atribuição <code>save "nome do stash"</code>. o comando final ficaria assim : <code>git stash save "nome do stash"</code>.
+Por padrão o comando <code>git stash</code> salva o stash nomeando como Update README.md. Mas você tem o controle de toda situação, pode salvar já passando um nome, com atribuição <code>save "nome do stash"</code>. O comando final ficaria assim: <code>git stash save "nome do stash"</code>.
 
 <span class="notes">Sempre que puder, salve seu stash atribuindo um nome a ele. Lembre-se vamos ser organizado.</span>
 
@@ -55,7 +55,7 @@ Para recuperar e deletar da lista, rode o comando <code>git stash pop</code>.
 
 Para recuperar o stash e fazer uma especie de um backup, deixando uma cópia dele ainda na lista, rode o comando <code>git stash apply</code>. 
 
-<span class="notes">É importante usar a atribuição <code>save "mensagem"</code> afim de uma organização melhor e, não se confundir quando for recuperar seus stash. Com todos nomeados será muito fácil de encontrá-los.</span>
+<span class="notes">É importante usar a atribuição <code>save "mensagem"</code> a fim de uma organização melhor e, não se confundir quando for recuperar seus stash. Com todos nomeados será muito fácil de encontrá-los.</span>
 
 Antes de recuperar, você quer dar uma confere pra não errar. Para isso o git disponibiliza a atribuição <code>show</code>, onde lista tudo que estiver dentro do stash. O comando final ficaria assim, <code> git stash show stash@{n}</code>.
 
@@ -100,7 +100,7 @@ Para trabalhamos com branch vamos usar os comandos <code>git checkout</code> par
 <h4 class="topics-mini">Mudando de branch</h4>
 <code>git checkout nome-da-branch</code>
 
-<span class="notes">Esse comando é muito simples! O <code>nome-da-branch</code> deve ser substituído por o nome da branchs que você criou. Ah, esqueci as branch que criei, e agora?! O git disponibiliza todas branch criada através do comando <code>git branch</code>.</span>
+<span class="notes">Esse comando é muito simples! O <code>nome-da-branch</code> deve ser substituído por o nome da branches que você criou. Ah, esqueci as branch que criei, e agora?! O git disponibiliza todas branch criada através do comando <code>git branch</code>.</span>
 
 <h4 class="topics-mini">Deletando</h4>
 <code>git branch -d nome-da-branch</code>
@@ -123,7 +123,7 @@ Existe duas formas de trazer as mudanças de uma branch para a outra:
 
 Esse comando trás todas alterações que foram feita em outra branch e que não foram nele. Essas alterações tem que está dentro de um commit. Então, fez as alterações, resolveu a tarefa, empacota dentro do commit e mude para a branch que queira trazer de volta e execute o comando, vale lembrar que o <code>nome-da-branch</code> é a branch que você modificou os arquivos.  
 
-No meu caso, quando termino a tarefa completamente faço o merge para a branch master, a branch padrão, onde fica tudo resolvido, nada vai pra lá pela metade ou faltando resolver quaisquer tarefa. Lembrando que, você vai até a branch que quer atualizar, e rode o comando.
+No meu caso, quando termino a tarefa completamente faço o merge para a branch master, a branch padrão, onde fica tudo resolvido, nada vai pra lá pela metade ou faltando resolver qualquer tarefa. Lembrando que, você vai até a branch que quer atualizar, e rode o comando.
 
 <h4 class="topics-mini">Diferença entre Merge e Rebase </h4>
 O rebase é mais preguiçoso, ele reconstrói a árvore e aplica o commit por cima. Já o merge, cria um novo commit para juntar as duas "pontas". Assim, mantêm um histórico melhor. 
