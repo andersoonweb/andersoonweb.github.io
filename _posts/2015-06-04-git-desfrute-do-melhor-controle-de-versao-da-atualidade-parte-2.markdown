@@ -34,7 +34,7 @@ Por padrão o commit é apagado e todos os arquivos voltam a ser <code>Untracked
 
 Anderson, sem querer executei <code>git reset HEAD~N --hard</code> no commit e perdi o trabalho do dia todo, e agora, o que eu faço? Meu chefe vai me matar!!! Lembra do primeiro tópico que eu falei que com o git você não perde nada?! Sim, é possível você recuperar um commit mesmo ele sendo deletado literalmente. Para efetuar a recuperação, rode o comando <code>git reflog</code> ele listará todos commits deletados. 
 
-Para traze-lô de volta precisará executar o comando <code>git rebase seu-hash</code>. Mas como assim, meu hash ? Meu commit já foi apagado... Se você perceberem no lado esquerdo tem alguns números, aquele é o hash do seu commit, só copiar e colar. Existe também outra forma de recuperar pelo ID do <code>HEAD</code>, na segunda coluna mostra todos os <code>HEAD</code> e seus ids, só copiar e colar.
+Para trazê-lo de volta precisará executar o comando <code>git rebase seu-hash</code>. Mas como assim, meu hash ? Meu commit já foi apagado... Se você perceberem no lado esquerdo tem alguns números, aquele é o hash do seu commit, só copiar e colar. Existe também outra forma de recuperar pelo ID do <code>HEAD</code>, na segunda coluna mostra todos os <code>HEAD</code> e seus ids, só copiar e colar.
 
 <span class="notes">O comando <code>git rebase</code> vai ser mais explorado em outros artigos.</span>
 
@@ -82,7 +82,7 @@ Para deleter um arquivo o mesmo precisa está em <code>Untracked files</code>, s
 
 <h2 class="topics">Verificando alterações</h2>
 
-Como citado na <a href="#" class="link-po-ex">parte 1</a>, no seu dia a dia você com certeza irá modificar vários arquivos. Alguns casos vai ser preciso que veja a alterações que fez, para essa atividade o git possui o comando <code>git diff nome-do-arquivo</code>. Bem simples de ser usar e muito útil.
+Como citado na <a href="#" class="link-po-ex">parte 1</a>, no seu dia-a-dia você com certeza irá modificar vários arquivos. Alguns casos vai ser preciso que veja a alterações que fez, para essa atividade o git possui o comando <code>git diff nome-do-arquivo</code>. Bem simples de ser usar e muito útil.
 
 <h2 class="topics">Revisão dos comandos, git reset HEAD, git checkout, git clean e git diff</h2>
 
