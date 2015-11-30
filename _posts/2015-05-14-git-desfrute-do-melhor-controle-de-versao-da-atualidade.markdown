@@ -16,14 +16,14 @@ edit: https://github.com/andersonweb/andersonweb.github.io/blob/master/_posts/20
 <a class="link-po-ex" href="/blog/2015/07/09/git-desfrute-do-melhor-controle-de-versao-da-atualidade-parte-3.html">Parte 3</a>
 
 <h2 class="topics">Meus primeiros passos...</h2>
-Recentemente resolvi me aprofundar no Git, um sistema de controle de versão bem comum entre desenvolvedores. Queria conhecer  pouco mais dos comandos básicos <code>git add</code> , <code>git commit</code> e <code>git push</code>. Queria ver as mágicas que ele faz.  
+Recentemente resolvi me aprofundar no Git, um sistema de controle de versão bem comum entre desenvolvedores. Queria conhecer  pouco mais dos comandos básicos <code>git add</code>, <code>git commit</code> e <code>git push</code>. Queria ver as mágicas que ele faz.  
 
-Queria passar um pouco dos comandos que aprendi e agora utilizo no dia a dia e expor minha interpretação deles pra vocês. 
+Queria passar um pouco dos comandos que aprendi e agora utilizo no dia-a-dia e expor minha interpretação deles pra vocês. 
 
 <h2 class="topics">O Git</h2>
 Ele foi desenvolvido por <a target="_blank" href="http://pt.wikipedia.org/wiki/Linus_Torvalds" class="link-po-ex">Linus</a>, o criador do Linux para o desenvolvimento do <a href="http://pt.wikipedia.org/wiki/Linux_%28n%C3%BAcleo%29" target="_blank" class="link-po-ex">kernel</a>, mas foi adotado por outros projetos. 
 
-<h2 class="topics">Git no dia a dia</h2>
+<h2 class="topics">Git no dia-a-dia</h2>
 O git é mais voltado pra grande e médias equipes, mas isso não lhe impede de trabalhar sozinho, é questão de organização; e ter um histórico de todo seu trabalho será legal. 
 
 <span class="notes">Para ter um melhor compreendimento necessário que saiba o básico de <a target="_blank" class="link-po-ex" href="http://www.hardware.com.br/dicas/basico-linha-comando.html">linha de comando.</a></span>
@@ -32,7 +32,7 @@ O git é mais voltado pra grande e médias equipes, mas isso não lhe impede de 
 A instalação do Git é bem simples, ele funciona tanto no Windows, Linux e Mac. <a target="_blank" class="link-po-ex" href="https://git-scm.com/book/pt-br/v1/Primeiros-passos-Instalando-Git">Veja aqui como instalar</a>. 
 Seguindo, depois da instação é preciso gerar um <a class="link-po-ex" href="https://help.github.com/articles/generating-ssh-keys/">keygen</a>. O que é isso ? É uma chave <a href="http://pt.wikipedia.org/wiki/SSH" class="link-po-ex">SSH</a> que te conecta do servidor local ao servidor web. Um exemplo bem conhecido é o <a href="#" class="link-po-ex">Github</a>, aonde tem um repositório local e outro na web. A  <a class="link-po-ex" href="https://help.github.com/articles/generating-ssh-keys">keygen</a> faz a ligação para que possa enviar suas atualizações para o servidor web ou baixa-las do servidor web para o servidor local. <a href="https://help.github.com/articles/generating-ssh-keys/" class="link-po-ex">Nesse tutorial</a> mostra como instalar a keygen, é muito simples, em qualquer S.O, ainda de quebra, mostra como fazer a conexão como o <a class="link-po-ex" href="http://github.ciom">Github</a>.
 
-<span class="notes">Muito cuidado com sua chave privada. Ela é a que não tem a extensão .pub. </span>
+<span class="notes">Muito cuidado com a sua chave privada. Ela é a que não tem a extensão .pub. </span>
 
 Após a instalação do git rode o comando <code>git init</code> na pasta que deseja trabalhar com ele. Isso criará um repositório <code>.git</code>, uma pasta oculta onde ficarão armazenadas todas as informações do seu projeto. Para visualizar a pasta rode o comando <code>ls -la</code>. 
 
@@ -40,7 +40,7 @@ Após a instalação do git rode o comando <code>git init</code> na pasta que de
 Para uma compreensão rápida desse tópico, vou dar um pequeno exemplo: Você vai até na padaria comprar pão. Chegando lá, olha todos os pães, pega o pão que deseja, coloca dentro de um saco, paga e leva. Aquele pão, se você não o quiser mais, tire-o da sacola. 
 Com o Git não é diferente. Após rodar o comando <code>git init</code>, rode o comando <code>git status</code>. O git vai listar  todos arquivos / pasta que estiver dentro daquela pasta do seu projeto. Se não tiver nenhum ainda, crie um e rode o comando <code>git status</code> novamente. 
 
-Esses arquivos podemos assimilar com os paẽs a serem escolhidos. Podemos pegar cada um deles com o comando <code>git add</code>. Esse comando permite que você adicione os arquivos que desejar colocar pra entrar em um pacote / saco. Esse pacote é chamado de commit no git. 
+Esses arquivos podemos assimilar com os pães a serem escolhidos. Podemos pegar cada um deles com o comando <code>git add</code>. Esse comando permite que você adicione os arquivos que desejar colocar pra entrar em um pacote / saco. Esse pacote é chamado de commit no git. 
 
 <h2 class="topics">Atribuições do comando git add</h2>
 
@@ -63,9 +63,9 @@ Perceba que, quando eles não foram adicionados, serão mostrador em  <code>Untr
 <h2 class="topics">Adicionando dentro do commit / pacote </h2>
 Para transformar seus arquivos escolhidos em um commit basta rodar o comando <code>git commit -m "sua mensagem"</code> . A propriedade <code>-m</code> atribui uma mensagem ao seu commit, assim você terá um histórico e saberá o que cada um fez. Por exemplo: <code>git commit -m "Corrigindo bug do IE 8"</code>. Esse commit só de olhar você já sabe que, corrigiu o bug do navegador Internet explore. 
 
-Existe um atribuição <code>-a</code>, ela consiste em adicoinar arquivos automaticamente. Ahn, mas como assim? Calma jovem, já explico. No seu dia a dia você com certeza irá modificar vários arquivos, e irá commitar. Bom, a atribuição <code>-a</code> só funciona em arquivos <code>On branch master</code>, ou seja, que já foi commitado, que já foi adicionado alguma vez, já foi rastreado pelo git. Para saber como identificar esses aquivos é bem simples, antes do nome ele vem mostrando que foi modificado. Ele fica assim: <code>modified: nome-do-arquivo</code>.
+Existe uma atribuição <code>-a</code>, ela consiste em adicionar arquivos automaticamente. Ahn, mas como assim? Calma jovem, já explico. No seu dia-a-dia você com certeza irá modificar vários arquivos, e irá commitar. Bom, a atribuição <code>-a</code> só funciona em arquivos <code>On branch master</code>, ou seja, que já foi commitado, que já foi adicionado alguma vez, já foi rastreado pelo git. Para saber como identificar esses aquivos é bem simples, antes do nome ele vem mostrando que foi modificado. Ele fica assim: <code>modified: nome-do-arquivo</code>.
 
-Ah Anderson, agora fiz meu commit e ficou faltando um arquivo, o que eu faço ? Quero colocar ele dentro do commit anterior. Para tal existe um atribuição chamada <code>--amend</code> que irá juntar os/o arquivos/arquivo que você adicionou.  O comando ficaria assim: <code>git commit -m "Corrigindo bug do IE 8"--amend</code>.
+Ah Anderson, agora fiz meu commit e ficou faltando um arquivo, o que eu faço ? Quero colocar ele dentro do commit anterior. Para tal existe uma atribuição chamada <code>--amend</code> que irá juntar os/o arquivos/arquivo que você adicionou.  O comando ficaria assim: <code>git commit -m "Corrigindo bug do IE 8"--amend</code>.
 
 <h2 class="topics">Revisão do comando git commit e suas atribuições</h2>
 
