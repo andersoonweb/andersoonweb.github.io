@@ -8,9 +8,9 @@ twitter_username: amenezesw
 # Build settings
 source:      .
 destination: ./_site
-plugins:     ./_plugins
-layouts:     ./_layouts
-data_source: ./_data
+plugins_dir:     ./_plugins
+layouts_dir:     ./_layouts
+data_dir: ./_data
 collections: null
 sass:
   style: compressed
