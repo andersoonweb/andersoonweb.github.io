@@ -13,6 +13,12 @@
     </header>
 
     <article class="content-po-ex">
+		{% if page.link %}
+			Esse post está em outro lugar, <a href="{{ page.link }}" title="{{ page.link }}">clique aqui</a> ou espere alguns segundos para ser redirecionado.
+			<script type="text/javascript">
+				window.location.replace("{{ page.link }}");
+			</script>
+		{% endif %}
     	{{ content }}
       <span class="edit"><a href="{{ page.edit }}" target="_blank" ><i class="fa fa-github fa-2x"></i> Editar esse post</a></span>
     </article>
