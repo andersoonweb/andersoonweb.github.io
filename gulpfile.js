@@ -53,7 +53,7 @@ gulp.task('browser-sync', ['jekyll-build'], function() {
 */
 
 gulp.task('sass', function () {
-  return gulp.src('assets/css/main.scss')
+  return gulp.src('_sass/main.scss')
     .pipe(sass({
         includePaths: ['scss'],
         onError: browserSync.notify
