@@ -5,7 +5,7 @@ published:   13-07-2015
 categories: blog
 description: Nesse artigo vamos falar sobre organização e como trabalhar em equipe.
 comments: true
-image:   "/assets/imagem/git-part3.jpg"
+image:   "/assets/images/git-part3.jpg"
 edit: https://github.com/andersonweb/andersonweb.github.io/blob/master/_posts/2015-07-01-usando-can-i-use-na-linha-de-comando.md
 
 ---

@@ -5,7 +5,7 @@ published:   04-06-2015
 categories: blog
 description: Nesse artigo vamos falar como visualizar todos os commits, como desfaze-los,como excluir o commit e recuperar os arquivos...
 comments: true
-image:   "/assets/imagem/git-par2.jpg"
+image:   "/assets/images/git-par2.jpg"
 edit: https://github.com/andersonweb/andersonweb.github.io/blob/master/_posts/2015-06-04-git-desfrute-do-melhor-controle-de-versao-da-atualidade-parte-2.markdown
 
 ---

@@ -5,7 +5,7 @@ published:   19-02-2015
 categories: blog
 description: Eu sempre fui um cara que dou muita importância para a beleza daquilo que estou usando. Cerca de dois anos atrás eu chegava do colégio por volta do meio dia e assistia a uma aula no canal da Study Class, sobre Introdução ao CSS dinamico com less CSS. Ele usava um sistema que não sabia o qual era, mas achava bem bonito...
 comments: true
-image: /assets/imagem/img-caminho-linux.png
+image: /assets/images/img-caminho-linux.png
 ---
 <h2 class="topics">Descobrindo o Linux</h2>
 Eu sempre fui um cara que deu muita importância para a beleza daquilo que estava usando. Cerca de dois anos atrás, eu chegava do colégio por volta do meio dia e assistia uma aula no canal da <a class="link-po-ex" target="_blank" href="https://www.youtube.com/user/StudyClassOficial">Study Class</a>, sobre <a target="_blank" class="link-po-ex" href="https://www.youtube.com/watch?v=pzC3zThxC_s">Introdução ao CSS dinamico com less CSS</a>. Ele usava um sistema que não sabia o qual era, mas achava bem bonito.

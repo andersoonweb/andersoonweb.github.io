@@ -5,7 +5,7 @@ published:   01-07-2015
 categories: blog
 description: Aprenda como usar o Can i use, uma tabela de suporte dos navegadores na linha de comando. 
 comments: true
-image:   "/assets/imagem/caniuse.png"
+image:   "/assets/images/caniuse.png"
 edit: https://github.com/andersonweb/andersonweb.github.io/blob/master/_posts/2015-07-01-usando-can-i-use-na-linha-de-comando.md
 ---
 <h2 class="topics">Introdução</h2>

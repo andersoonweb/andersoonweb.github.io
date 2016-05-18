@@ -5,7 +5,7 @@ published:   31-05-2015
 categories: blog
 description: Queria passar um pouco dos comandos que aprendi e agora utilizo no dia a dia e expor minha interpretação deles pra vocês.
 comments: true
-image:   "/assets/imagem/git-par1.jpg"
+image:   "/assets/images/git-par1.jpg"
 edit: https://github.com/andersonweb/andersonweb.github.io/blob/master/_posts/2015-05-14-git-desfrute-do-melhor-controle-de-versao-da-atualidade.markdown
 ---
 <h4 class="topics-mini">Esse é o post #1 de 5</h4>
