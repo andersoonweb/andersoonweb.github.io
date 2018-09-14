@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <header class="header-post-external">
+      <div class="bar">
+        <a href="/"><i class="fa fa-arrow-circle-left fa-4x"></i></a>
+      </div>
+        <div class="align-po-ex">
+    		  <h1 class="title-po-ex">{{ page.title }}</h1>
+    	  </div>
+    	  <div style="background-image: url('{{ page.image }}');" class="image-po-ex"></div>
+    </header>
+
+    <article class="content-po-ex">
+    	{{ content }}
+      <span class="edit"><a href="{{ page.edit }}" target="_blank" ><i class="fa fa-github fa-2x"></i> Editar esse post</a></span>
+    </article>
+
+    {% include share.html %}
+   
+    <div class="center">
+        <section class="comments">
+            <h2 class="title-features">Não deixe de comentar</h2>
+            {% include comments.html %}
+        </section>
+    </div>
+   </body>
+</html>
+
